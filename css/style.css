@@ -112,3 +112,8 @@ img {
 .navigation-list {
   list-style: none;
 }
+
+.navigation-item {
+  background: var(--special-bluedark);
+}
+
