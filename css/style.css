@@ -58,3 +58,7 @@ img {
   color: var(--white);
   background: var(--special-background);
 }
+
+.bookmark-link {
+  color: var(--white);
+}
