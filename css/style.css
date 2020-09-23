@@ -237,17 +237,7 @@ img {
   color: var(--black);
 }
 
-.product-price-old {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 18px;
-  text-decoration-line: line-through;
-  text-transform: uppercase;
-  color: var(--greydark);
-}
-
+.product-price-old,
 .product-price-new {
   font-family: "PT Sans";
   font-style: normal;
@@ -255,6 +245,14 @@ img {
   font-size: 17px;
   line-height: 18px;
   text-transform: uppercase;
+}
+
+.product-price-old {
+  text-decoration-line: line-through;
+  color: var(--greydark);
+}
+
+.product-price-new {
   color: var(--white);
   background: var(--basic-red);
 }
