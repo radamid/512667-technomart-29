@@ -174,7 +174,7 @@ img {
   background: var(--special-greenlight);
 }
 
-/* Sliders */
+/* Sliders, Products */
 
 .sliders {
   width: 620px;
@@ -196,14 +196,13 @@ img {
   color: var(--white);
 }
 
-.slider-link {
+.slider-link,
+.all-products-link {
   line-height: 18px;
   text-transform: uppercase;
   color: var(--white);
   background: var(--basic-red);
 }
-
-/* Products */
 
 .products {
   width: 940px;
