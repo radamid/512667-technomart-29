@@ -147,7 +147,8 @@ img {
 }
 
 .feature-link,
-.discount-link {
+.discount-link,
+.delivery-link {
   line-height: 18px;
   text-transform: uppercase;
   color: var(--white);
