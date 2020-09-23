@@ -202,3 +202,10 @@ img {
   color: var(--white);
   background: var(--basic-red);
 }
+
+/* Products */
+
+.products {
+  width: 940px;
+  height: auto;
+}
