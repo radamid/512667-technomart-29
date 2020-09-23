@@ -174,3 +174,8 @@ img {
   text-transform: uppercase;
   color: var(--white);
 }
+
+.slider-content {
+  font-size: 18px;
+  color: var(--white);
+}
