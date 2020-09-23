@@ -134,7 +134,8 @@ img {
   height: 123px;
 }
 
-.feature-title {
+.feature-title,
+.discount-title {
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
