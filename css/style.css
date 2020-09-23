@@ -319,3 +319,12 @@ img {
   width: 305px;
   height: auto;
 }
+
+.partner-list {
+  list-style-image: url("https://via.placeholder.com/25x2");
+}
+
+.partner-item {
+  font-size: 18px;
+  color: var(--black);
+}
