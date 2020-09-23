@@ -247,3 +247,14 @@ img {
   text-transform: uppercase;
   color: var(--greydark);
 }
+
+.product-price-new {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--white);
+  background: var(--basic-red);
+}
