@@ -108,3 +108,7 @@ img {
   line-height: 21px;
   color: var(--black);
 }
+
+.navigation-list {
+  list-style: none;
+}
