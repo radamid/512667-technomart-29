@@ -228,7 +228,8 @@ img {
 .brand-title,
 .service-title,
 .service-item-title,
-.company-title {
+.company-title,
+.contact-title {
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
@@ -278,7 +279,8 @@ img {
 }
 
 .service-title,
-.company-title {
+.company-title,
+.contact-title {
   color: var(--black);
 }
 
