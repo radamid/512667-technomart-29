@@ -121,3 +121,10 @@ img {
   font-size: 18px;
   color: var(--white);
 }
+
+/* Features */
+
+.features {
+  width: 300px;
+  height: 123px;
+}
