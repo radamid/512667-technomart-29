@@ -131,6 +131,13 @@ img {
   color: var(--white);
 }
 
+/* Main */
+
+.page-main {
+  min-width: 940px;
+  background: var(--white);
+}
+
 /* Features, Discounts, Deliveries */
 
 .features,
@@ -178,7 +185,7 @@ img {
   background: var(--special-greenlight);
 }
 
-/* Sliders, Products, Brands */
+/* Sliders, Products, Brands, Services */
 
 .sliders {
   width: 620px;
@@ -257,4 +264,9 @@ img {
 .product-price-new {
   color: var(--white);
   background: var(--basic-red);
+}
+
+.services {
+  min-width: 940px;
+  background-color: var(--basic-background);
 }
