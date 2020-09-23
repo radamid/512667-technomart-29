@@ -225,3 +225,12 @@ img {
   border: 1px solid var(--greylight);
   box-sizing: border-box;
 }
+
+.product-title {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--black);
+}
