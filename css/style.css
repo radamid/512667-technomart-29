@@ -19,7 +19,7 @@
   
   --bluelight: #f3f7f9;
   --greylight: #eaeaea;
-  
+  --redlight: #f9f5f0;
   --greydark: #a9a9a9;
   
 }
@@ -222,7 +222,8 @@ img {
   background: var(--basic-red);
 }
 
-.products {
+.products,
+.brands {
   width: 940px;
   height: auto;
 }
@@ -362,4 +363,15 @@ img {
   font-size: 16px;
   line-height: 18px;
   color: var(--white);
+}
+
+.feedback-link,
+.developer-link {
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--special-yellowlight);
+}
+
+.populars {
+  background: var(--redlight);
 }
