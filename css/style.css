@@ -7,6 +7,9 @@
   
   --special-background: #293449;
   --special-bluedark: #32425c;
+  --special-yellow: #ffbf47;
+  --special-blue: #3bbce3;
+  --special-lilac: #dc91d8;
   
   --black: #000000;
   --white: #ffffff;
@@ -141,4 +144,16 @@ img {
   line-height: 18px;
   text-transform: uppercase;
   color: var(--white);
+}
+
+.features:nth-child(2) {
+  background: var(--special-yellow);
+}
+
+.features:nth-child(3) {
+  background: var(--special-blue);
+}
+
+.features:nth-child(4) {
+  background: var(--special-lilac);
 }
