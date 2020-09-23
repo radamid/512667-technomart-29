@@ -10,6 +10,8 @@
   --black: #000000;
   --white: #ffffff;
   
+  --bluelight: #f3f7f9;
+  
 }
 
 /* Global */
@@ -81,4 +83,15 @@ img {
   font-size: 16px;
   line-height: 23px;
   color: var(--basic-red);
+}
+
+.header-phone {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 30px;
+  border: 3px solid var(--white);
+``box-sizing: border-box;
+  color: var(--basic-red);
+  background: var(--bluelight);
 }
