@@ -279,7 +279,8 @@ img {
   color: var(--black);
 }
 
-.service-content {
+.service-content,
+.service-item-content {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: normal;
