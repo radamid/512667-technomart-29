@@ -137,7 +137,8 @@ img {
 }
 
 .feature-title,
-.discount-title {
+.discount-title,
+.delivery-title {
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
