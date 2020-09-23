@@ -348,7 +348,8 @@ img {
   background: var(--special-bluedark);
 }
 
-.footer-address {
+.footer-address,
+.footer-phone {
   font-style: normal;
   font-size: 18px;
   color: var(--bluelight);
