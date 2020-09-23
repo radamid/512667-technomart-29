@@ -157,3 +157,11 @@ img {
 .features:nth-child(4) {
   background: var(--special-lilac);
 }
+
+/* Sliders */
+
+.sliders {
+  width: 620px;
+  height: 266px;
+  background: var(--special-background);
+}
