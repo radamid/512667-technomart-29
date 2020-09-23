@@ -222,7 +222,8 @@ img {
 }
 
 .products-title,
-.brand-title {
+.brand-title,
+.service-title {
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
@@ -269,4 +270,8 @@ img {
 .services {
   min-width: 940px;
   background-color: var(--basic-background);
+}
+
+.service-title {
+  color: var(--black);
 }
