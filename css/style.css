@@ -3,6 +3,7 @@
 :root {
   --basic-background: #f1f5f7;
   --basic-red: #ee3643;
+  --basic-green: #63a63e;
   
   --special-background: #293449;
   
@@ -60,6 +61,11 @@ img {
 
 .search-field,
 .bookmark-link,
-.basket-link {
+.basket-link,
+.order-link {
   color: var(--white);
+}
+
+.order-link {
+  background: var(--basic-green);
 }
