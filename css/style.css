@@ -187,7 +187,7 @@ img {
   background: var(--special-greenlight);
 }
 
-/* Sliders, Products, Brands, Services */
+/* Sliders, Products, Brands, Services, Contacts */
 
 .sliders {
   width: 620px;
@@ -327,4 +327,9 @@ img {
 .partner-item {
   font-size: 18px;
   color: var(--black);
+}
+
+.contacts {
+  width: 300px;
+  height: auto;
 }
