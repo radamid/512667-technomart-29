@@ -118,7 +118,8 @@ img {
 }
 
 .navigation-list,
-.product-list {
+.product-list,
+.service-list {
   list-style: none;
 }
 
