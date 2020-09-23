@@ -211,7 +211,8 @@ img {
 
 .slider-link,
 .all-products-link,
-.all-brands-link {
+.all-brands-link,
+.company-link {
   line-height: 18px;
   text-transform: uppercase;
   color: var(--white);
