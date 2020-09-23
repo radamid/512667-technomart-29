@@ -59,7 +59,8 @@ img {
   background: var(--special-background);
 }
 
-.header-logo {
+.header-logo,
+.footer-logo {
   font-size: 24px;
   color: var(--white);
   background: var(--basic-red);
@@ -345,4 +346,10 @@ img {
   width: auto;
   min-height: 300px;
   background: var(--special-bluedark);
+}
+
+.footer-address {
+  font-style: normal;
+  font-size: 18px;
+  color: var(--bluelight);
 }
