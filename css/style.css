@@ -101,3 +101,9 @@ img {
   font-style: normal;
   color: var(--special-bluedark);
 }
+
+.login-link {
+  font-size: 21px;
+  line-height: 21px;
+  color: var(--black);
+}
