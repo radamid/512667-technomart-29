@@ -69,3 +69,9 @@ img {
 .order-link {
   background: var(--basic-green);
 }
+
+/* Head */
+
+.header {
+  min-width: 940px;
+}
