@@ -11,6 +11,7 @@
   --special-blue: #3bbce3;
   --special-lilac: #dc91d8;
   --special-yellowlight: #ffd180;
+  --special-greenlight: #8ed78f;
   
   --black: #000000;
   --white: #ffffff;
@@ -165,6 +166,10 @@ img {
 
 .discounts {
   background: var(--special-yellowlight);
+}
+
+.deliveries {
+  background: var(--special-greenlight);
 }
 
 /* Sliders */
