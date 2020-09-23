@@ -282,7 +282,8 @@ img {
 }
 
 .service-content,
-.service-item-content {
+.service-item-content,
+.company-content {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: normal;
