@@ -226,7 +226,8 @@ img {
 .products-title,
 .brand-title,
 .service-title,
-.service-item-title {
+.service-item-title,
+.company-title {
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
@@ -275,7 +276,8 @@ img {
   background-color: var(--basic-background);
 }
 
-.service-title {
+.service-title,
+.company-title {
   color: var(--black);
 }
 
