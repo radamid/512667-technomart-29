@@ -333,7 +333,8 @@ img {
   color: var(--black);
 }
 
-.contacts {
+.contacts,
+.contact-map {
   width: 300px;
   height: auto;
 }
