@@ -52,3 +52,9 @@ img {
   background: var(--basic-red);
   box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.24);
 }
+
+.search-field {
+  border: none;
+  color: var(--white);
+  background: var(--special-background);
+}
