@@ -183,11 +183,11 @@ img {
 }
 
 .discounts {
-  background: var(--special-yellowlight);
+  background: var(--special-greenlight);
 }
 
 .deliveries {
-  background: var(--special-greenlight);
+  background: var(--special-yellowlight);
 }
 
 /* Sliders, Products, Brands, Services, Contacts */
