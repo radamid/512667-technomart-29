@@ -178,7 +178,7 @@ img {
   background: var(--special-greenlight);
 }
 
-/* Sliders, Products */
+/* Sliders, Products, Brands */
 
 .sliders {
   width: 620px;
@@ -213,7 +213,8 @@ img {
   height: auto;
 }
 
-.products-title {
+.products-title,
+.brand-title {
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
