@@ -10,6 +10,7 @@
   --special-yellow: #ffbf47;
   --special-blue: #3bbce3;
   --special-lilac: #dc91d8;
+  --special-yellowlight: #ffd180;
   
   --black: #000000;
   --white: #ffffff;
@@ -157,6 +158,10 @@ img {
 
 .features:nth-child(4) {
   background: var(--special-lilac);
+}
+
+.discounts {
+  background: var(--special-yellowlight);
 }
 
 /* Sliders */
