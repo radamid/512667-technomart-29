@@ -356,7 +356,9 @@ img {
   color: var(--bluelight);
 }
 
-.copyright-content {
+.copyright-content,
+.feedback-content,
+.developer-content {
   font-size: 16px;
   line-height: 18px;
   color: var(--white);
