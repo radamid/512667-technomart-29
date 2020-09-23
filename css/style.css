@@ -338,3 +338,11 @@ img {
   width: 300px;
   height: auto;
 }
+
+/* Footer */
+
+.page-footer {
+  width: auto;
+  min-height: 300px;
+  background: var(--special-bluedark);
+}
