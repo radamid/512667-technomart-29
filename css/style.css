@@ -354,3 +354,9 @@ img {
   font-size: 18px;
   color: var(--bluelight);
 }
+
+.copyright-content {
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--white);
+}
