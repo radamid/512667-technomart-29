@@ -114,7 +114,8 @@ img {
   color: var(--black);
 }
 
-.navigation-list {
+.navigation-list,
+.product-list {
   list-style: none;
 }
 
