@@ -126,10 +126,11 @@ img {
   color: var(--white);
 }
 
-/* Features, Discounts */
+/* Features, Discounts, Deliveries */
 
 .features,
-.discounts {
+.discounts,
+.deliveries {
   width: 300px;
   height: 123px;
 }
