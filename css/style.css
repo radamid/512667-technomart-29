@@ -117,3 +117,7 @@ img {
   background: var(--special-bluedark);
 }
 
+.navigation-link {
+  font-size: 18px;
+  color: var(--white);
+}
