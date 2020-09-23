@@ -1,0 +1,32 @@
+/* Variables */
+
+:root {
+  --basic-background: #f1f5f7;
+  
+  --black: #000000;
+  
+}
+
+/* Global */
+
+body {
+  min-width: 940px;
+  margin: 0;
+  padding: 0;
+  font-family: "Cuprum", "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--black);
+  background-color: var(--basic-background);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
