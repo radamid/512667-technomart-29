@@ -121,7 +121,8 @@ img {
 
 .navigation-list,
 .product-list,
-.service-list {
+.service-list,
+.social-list {
   list-style: none;
 }
 
