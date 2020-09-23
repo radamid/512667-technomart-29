@@ -55,10 +55,11 @@ img {
 
 .search-field {
   border: none;
-  color: var(--white);
   background: var(--special-background);
 }
 
-.bookmark-link {
+.search-field,
+.bookmark-link,
+.basket-link {
   color: var(--white);
 }
