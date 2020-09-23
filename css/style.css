@@ -17,6 +17,7 @@
   --white: #ffffff;
   
   --bluelight: #f3f7f9;
+  --greylight: #eaeaea;
   
 }
 
@@ -217,3 +218,10 @@ img {
   color: var(--special-bluedark);
 }
 
+.product-item {
+  width: 220px;
+  height: 318px;
+  background: var(--white);
+  border: 1px solid var(--greylight);
+  box-sizing: border-box;
+}
