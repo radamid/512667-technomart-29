@@ -336,7 +336,20 @@ img {
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
+}
+
+.filter-menu,
+.filter-button,
+.filter-link,
+.breadcrumbs-link,
+.paginator-link {
   color: var(--black);
+}
+
+.filter-link {
+  color: var(--black);
+  /*mix-blend-mode: normal;*/
+  opacity: 0.3;
 }
 
 .filter-button {
@@ -601,8 +614,17 @@ img {
   background: var(--red-button-hover);
 }
 
-.slider-link:hover {
-  background: var(--red-button-hover);
+.filter-link:hover {
+  /*color: var(--black);*/
+  opacity: 1.0;
+}
+
+.slider-link:active {
+  background: var(--red-button-active);
+}
+
+.filter-link:active {
+  color: var(--basic-red);
 }
 
 /* Footer */
