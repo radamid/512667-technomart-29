@@ -187,7 +187,8 @@ img {
 }
 
 .login-link,
-.register-link {
+.register-link,
+.user-name {
   font-family: "Cuprum";
   font-style: normal;
   font-weight: normal;
