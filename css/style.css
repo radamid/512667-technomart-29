@@ -182,6 +182,11 @@ img {
   background: var(--basic-green);
 }
 
+.search-field:focus {
+  color: var(--black);
+  background: var(--white);
+}
+
 /* Head */
 
 .header {
