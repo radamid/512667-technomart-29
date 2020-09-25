@@ -291,10 +291,27 @@ img {
   box-shadow: inset 0px -5px 0px var(--special-background);
 }
 
+.navigation-footer:hover,
+.footer-menu:hover {
+  text-decoration-line: underline;
+}
+
 .navigation-header:active {
   opacity: 0.5;
   background: var(--active-navigation);
   box-shadow: inset 0px -5px 0px var(--special-background);
+}
+
+.navigation-footer:active {
+  color: var(--basic-background);
+  /*mix-blend-mode: normal;*/
+  opacity: 0.5;
+}
+
+.footer-menu:active {
+  color: var(--special-yellowlight);
+  /*mix-blend-mode: normal;*/
+  opacity: 0.5;
 }
 
 /* Main */
