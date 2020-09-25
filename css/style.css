@@ -115,14 +115,15 @@ img {
 .header-bar {
   min-width: auto;
   height: 42px;
-  font-size: 18px;
-  line-height: 24px;
   color: var(--white);
   background: var(--special-background);
 }
 
 .header-logo,
 .footer-logo {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: normal
   font-size: 24px;
   text-transform: uppercase;
   color: var(--white);
@@ -139,6 +140,10 @@ img {
 .bookmark-link,
 .basket-link,
 .order-link {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: normal
+  font-size: 18px;
   color: var(--white);
 }
 
