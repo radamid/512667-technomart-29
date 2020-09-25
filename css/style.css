@@ -235,7 +235,16 @@ img {
 }
 
 .login-link:hover,
-.register-link:hover {
+.register-link:hover,
+.user-orders:hover,
+.user-profile:hover {
+  color: var(--basic-red);
+}
+
+.login-link:active,
+.register-link:active,
+.user-orders:active,
+.user-profile:active {
   color: var(--basic-greylight);
 }
 
