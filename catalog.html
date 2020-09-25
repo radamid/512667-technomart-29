@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body class="page-body">
     <header class="page-header">
@@ -17,8 +19,8 @@
         <p>Интернет-магазин <br>строительных материалов <br>и инструментов для ремонта<p>
         <a href="tel:+78125550555">+7 (812) 555-05-55</a>
         <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
-        <!-- <a href="">Войти</a>
-        <a href="">Регистрация</a> -->
+        <a class="cut-down" href="">Войти</a>
+        <a class="cut-down" href="">Регистрация</a>
         <a href="">Равшан Джамшутович</a>
         <a href="">Мои заказы</a>
         <a href="">Личный кабинет</a>
@@ -74,7 +76,7 @@
       <a href="">По возрастанию</a>
       <a href="">По убыванию</a>
       <section>
-        <h2>Избранные товары</h2>
+        <h2 class="visually-hidden">Избранные товары</h2>
         <ul>
           <li>
             <a href=""><img src="https://via.placeholder.com/220x160" alt="Перфоратор «Bosch BFG 6000»"></a>
@@ -109,6 +111,7 @@
           <li>
             <a href=""><img src="https://via.placeholder.com/220x160" alt="Перфоратор «Bosch BFG 2000»"></a>
             <h3>Перфоратор BOSCH BFG 2000</h3>
+            <p class="visually-hidden">нет цены</p>
             <p>12500 р.</p>
           </li>
           <li>
@@ -127,6 +130,7 @@
           <li>
             <a href=""><img src="https://via.placeholder.com/220x160" alt="Перфоратор «Bosch BFG 2000»"></a>
             <h3>Перфоратор BOSCH BFG 2000</h3>
+            <p class="visually-hidden">нет цены</p>
             <p>12500 р.</p>
           </li>
         </ul>
@@ -175,9 +179,8 @@
       </ul>
       <p>Обратная связь: <br><a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
       <p>Разработано — <br><a href="https://htmlacademy.ru">htmlacademy.ru</a></p>
-      <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+      <p class="visually-hidden">Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
     </footer>
     
-
   </body>
 </html>
