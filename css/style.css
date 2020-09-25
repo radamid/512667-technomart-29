@@ -238,6 +238,20 @@ img {
   color: var(--black);
 }
 
+.user-orders,
+.user-profile {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.user-orders,
+.user-profile {
+  color: var(--special-bluedark);
+}
+
 .login-link:hover,
 .register-link:hover,
 .user-orders:hover,
@@ -673,9 +687,7 @@ img {
 }
 
 .feedback-link,
-.developer-link,
-.user-orders,
-.user-profile {
+.developer-link {
   font-family: "Cuprum";
   font-style: normal;
   font-weight: normal;
@@ -686,11 +698,6 @@ img {
 .feedback-link,
 .developer-link {
   color: var(--special-yellowlight);
-}
-
-.user-orders,
-.user-profile {
-  color: var(--special-bluedark);
 }
 
 .populars {
