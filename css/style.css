@@ -296,6 +296,7 @@ img {
 .feature-title,
 .discount-title,
 .delivery-title {
+  font-family: "Cuprum Bold";
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -306,6 +307,9 @@ img {
 .feature-link,
 .discount-link,
 .delivery-link {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: normal;
   line-height: 18px;
   text-transform: uppercase;
   color: var(--white);
