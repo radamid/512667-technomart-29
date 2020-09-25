@@ -601,8 +601,8 @@ img {
   background: var(--red-button-hover);
 }
 
-.slider-link:active {
-  background: var(--red-button-active);
+.slider-link:hover {
+  background: var(--red-button-hover);
 }
 
 /* Footer */
