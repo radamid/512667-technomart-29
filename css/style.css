@@ -216,7 +216,18 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
+}
+
+.navigation-header {
   color: var(--white);
+}
+
+.navigation-footer {
+  color: var(--basic-background);
+}
+
+.footer-menu {
+  color: var(--special-yellowlight);
 }
 
 /* Main */
