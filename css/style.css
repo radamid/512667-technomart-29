@@ -182,7 +182,6 @@ img {
   font-family: "Cuprum";
   font-style: normal;
   font-weight: normal;
-  font-style: normal;
   color: var(--special-bluedark);
 }
 
@@ -567,7 +566,6 @@ img {
 .user-profile {
   color: var(--special-bluedark);
 }
-
 
 .populars {
   background: var(--redlight);
