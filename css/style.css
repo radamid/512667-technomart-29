@@ -78,6 +78,11 @@
   --redlight: #f9f5f0;
   --greydark: #a9a9a9;
   
+  --success: #5fbb2d;
+  --warning: #ffbf47;
+  --error: #ba2732;
+  --active-background: #161d29;
+  
 }
 
 /* Global */
@@ -144,10 +149,31 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
+}
+
+.search-field,
+.bookmark-link,
+.basket-link,
+.order-link {
   color: var(--white);
 }
 
 .order-link {
+  background: var(--basic-green);
+}
+
+.order-link:hover {
+  background: var(--success);
+}
+
+.bookmark-link:active,
+.basket-link:active {
+  color: rgba(255, 255, 255, 0.5);
+  background: var(--active-background);
+}
+
+.order-link:active {
+  color: rgba(255, 255, 255, 0.5);
   background: var(--basic-green);
 }
 
