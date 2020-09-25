@@ -697,6 +697,17 @@ img {
   background: var(--redlight);
 }
 
+.feedback-link:hover,
+.developer-link:hover {
+  text-decoration-line: underline;
+}
+
+.feedback-link:active,
+.developer-link:active {
+  text-decoration-line: none;
+  color: var(--basic-red);
+}
+
 /* Visually Hidden */
 
 .visually-hidden {
