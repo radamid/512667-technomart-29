@@ -602,25 +602,18 @@ img {
   box-shadow: 0px 1px 0px var(--special-background), inset 0px 1px 0px var(--special-shadow);
 }
 
-.service-item:nth-child(1) {
-  width: 240px;
-  height: 61px;
-  font-family: "Cuprum Bold";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 30px;
-  color: var(--special-bluedark);
-  background: var(--white);
-  box-shadow: 0px 1px 0px var(--white);
-}
-
 .service-item-title {
   font-family: "Cuprum";
   font-style: normal;
   font-weight: normal;
   width: 305px;
   height: auto;
+}
+
+.service-list > .service-active {
+  color: var(--special-bluedark);
+  background: var(--white);
+  box-shadow: 0px 1px 0px var(--white);
 }
 
 .partner-list {
