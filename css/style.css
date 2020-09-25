@@ -85,6 +85,9 @@
   --active-background: #161d29;
   --active-navigation: #1d2739;
   
+  --red-button-hover: #ca2c37;
+  --red-button-active: #ba2732;
+  
 }
 
 /* Global */
@@ -592,6 +595,14 @@ img {
 .contact-map {
   width: 300px;
   height: auto;
+}
+
+.slider-link:hover {
+  background: var(--red-button-hover);
+}
+
+.slider-link:active {
+  background: var(--red-button-active);
 }
 
 /* Footer */
