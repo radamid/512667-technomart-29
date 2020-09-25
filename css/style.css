@@ -385,6 +385,7 @@ img {
   color: var(--black);
   /*mix-blend-mode: normal;*/
   opacity: 0.3;
+  text-decoration-line: underline;
 }
 
 .filter-button {
@@ -679,6 +680,7 @@ img {
 
 .filter-link:active {
   color: var(--basic-red);
+  text-decoration-line: none;
 }
 
 /* Footer */
