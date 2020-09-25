@@ -394,6 +394,15 @@ img {
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
+}
+
+.popular-title,
+.brand-title,
+.service-title,
+.service-item-title,
+.company-title,
+.contact-title,
+.page-title {
   color: var(--special-bluedark);
 }
 
