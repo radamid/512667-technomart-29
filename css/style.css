@@ -203,6 +203,10 @@ img {
   list-style: none;
 }
 
+.navigation-list {
+  background: var(--special-bluedark);
+}
+
 .navigation-item {
   background: var(--special-bluedark);
 }
