@@ -92,7 +92,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: var(--black);
-  background-color: var(--basic-background);
+  background-color: var(--white);
 }
 
 a {
