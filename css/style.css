@@ -158,13 +158,16 @@ img {
 }
 
 .header-content {
+  font-family: "Cuprum Italic";
   font-style: italic;
+  font-weight: normal;
   font-size: 16px;
   line-height: 23px;
   color: var(--basic-red);
 }
 
 .header-phone {
+  font-family: "Cuprum Bold";
   font-style: normal;
   font-weight: bold;
   font-size: 21px;
@@ -176,12 +179,18 @@ img {
 }
 
 .header-address {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: normal;
   font-style: normal;
   color: var(--special-bluedark);
 }
 
 .login-link,
 .register-link {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: normal;
   font-size: 21px;
   line-height: 21px;
   color: var(--black);
@@ -199,6 +208,9 @@ img {
 }
 
 .navigation-link {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   color: var(--white);
 }
