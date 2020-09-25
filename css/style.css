@@ -556,8 +556,18 @@ img {
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
+}
+
+.feedback-link,
+.developer-link {
   color: var(--special-yellowlight);
 }
+
+.user-orders,
+.user-profile {
+  color: var(--special-bluedark);
+}
+
 
 .populars {
   background: var(--redlight);
