@@ -458,7 +458,8 @@ img {
 .service-content,
 .service-item-content,
 .company-content,
-.contact-content {
+.contact-content,
+.article-content {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: normal;
