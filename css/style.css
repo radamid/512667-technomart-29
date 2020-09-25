@@ -529,7 +529,9 @@ img {
 
 .footer-address,
 .footer-phone {
+  font-family: "Cuprum";
   font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   color: var(--bluelight);
 }
@@ -537,13 +539,21 @@ img {
 .copyright-content,
 .feedback-content,
 .developer-content {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 18px;
   color: var(--white);
 }
 
 .feedback-link,
-.developer-link {
+.developer-link,
+.user-orders,
+.user-profile {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 18px;
   color: var(--special-yellowlight);
