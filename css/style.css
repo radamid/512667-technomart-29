@@ -104,6 +104,12 @@ img {
   height: auto;
 }
 
+/* Header */
+
+.page-header {
+  background: var(--basic-background);
+}
+
 /* Bar */
 
 .header-bar {
