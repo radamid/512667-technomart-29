@@ -432,3 +432,13 @@ img {
 .populars {
   background: var(--redlight);
 }
+
+/* Visually Hidden */
+
+.visually-hidden {
+  visibility: hidden;
+}
+
+.cut-down {
+  display: none;
+}
