@@ -404,6 +404,16 @@ img {
   color: var(--black);
 }
 
+.filter-link:hover {
+  /*color: var(--black);*/
+  opacity: 1.0;
+}
+
+.filter-link:active {
+  color: var(--basic-red);
+  text-decoration-line: none;
+}
+
 .paginator-item {
   width: 38px;
   height: 38px;
@@ -524,6 +534,14 @@ img {
   text-transform: uppercase;
   color: var(--white);
   background: var(--basic-red);
+}
+
+.slider-link:hover {
+  background: var(--red-button-hover);
+}
+
+.slider-link:active {
+  background: var(--red-button-active);
 }
 
 .products,
@@ -663,24 +681,6 @@ img {
 .contact-map {
   width: 300px;
   height: auto;
-}
-
-.slider-link:hover {
-  background: var(--red-button-hover);
-}
-
-.filter-link:hover {
-  /*color: var(--black);*/
-  opacity: 1.0;
-}
-
-.slider-link:active {
-  background: var(--red-button-active);
-}
-
-.filter-link:active {
-  color: var(--basic-red);
-  text-decoration-line: none;
 }
 
 /* Footer */
