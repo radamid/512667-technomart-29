@@ -60,6 +60,7 @@
   --basic-background: #f1f5f7;
   --basic-red: #ee3643;
   --basic-green: #63a63e;
+  --basic-greylight: #c5c5c5;
   
   --special-background: #293449;
   --special-bluedark: #32425c;
@@ -231,6 +232,11 @@ img {
   font-size: 21px;
   line-height: 21px;
   color: var(--black);
+}
+
+.login-link:hover,
+.register-link:hover {
+  color: var(--basic-greylight);
 }
 
 .navigation-list,
