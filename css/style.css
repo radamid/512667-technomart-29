@@ -335,7 +335,7 @@ img {
   background: var(--special-yellowlight);
 }
 
-/* Sliders, Products, Brands, Services, Contacts */
+/* Sliders, Products, Brands, Services, Contacts, Articles */
 
 .sliders {
   width: 620px;
@@ -344,6 +344,7 @@ img {
 }
 
 .slider-title {
+  font-family: "Cuprum Bold";
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -353,6 +354,9 @@ img {
 }
 
 .slider-content {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   color: var(--white);
 }
@@ -362,6 +366,9 @@ img {
 .all-brands-link,
 .company-link,
 .contact-link {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: normal;
   line-height: 18px;
   text-transform: uppercase;
   color: var(--white);
@@ -379,7 +386,11 @@ img {
 .service-title,
 .service-item-title,
 .company-title,
-.contact-title {
+.contact-title,
+.article-title {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: normal;
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
@@ -395,7 +406,7 @@ img {
 }
 
 .product-title {
-  font-family: "PT Sans";
+  font-family: "PT Sans Bold";
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -430,7 +441,8 @@ img {
 
 .service-title,
 .company-title,
-.contact-title {
+.contact-title,
+.article-title {
   color: var(--black);
 }
 
@@ -449,6 +461,9 @@ img {
 .service-item {
   width: 240px;
   height: 61px;
+  font-family: "Cuprum Bold";
+  font-style: normal;
+  font-weight: bold;
   font-weight: bold;
   font-size: 21px;
   line-height: 30px;
@@ -460,6 +475,8 @@ img {
 .service-item:nth-child(1) {
   width: 240px;
   height: 61px;
+  font-family: "Cuprum Bold";
+  font-style: normal;
   font-weight: bold;
   font-size: 21px;
   line-height: 30px;
@@ -469,6 +486,9 @@ img {
 }
 
 .service-item-title {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: normal;
   width: 305px;
   height: auto;
 }
@@ -478,6 +498,9 @@ img {
 }
 
 .partner-item {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   color: var(--black);
 }
