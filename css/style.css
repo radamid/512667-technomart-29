@@ -83,6 +83,7 @@
   --warning: #ffbf47;
   --error: #ba2732;
   --active-background: #161d29;
+  --active-navigation: #1d2739;
   
 }
 
@@ -280,6 +281,17 @@ img {
 
 .footer-menu {
   color: var(--special-yellowlight);
+}
+
+.navigation-header:hover {
+  background: var(--special-background);
+  box-shadow: inset 0px -5px 0px var(--special-background);
+}
+
+.navigation-header:active {
+  opacity: 0.5;
+  background: var(--active-navigation);
+  box-shadow: inset 0px -5px 0px var(--special-background);
 }
 
 /* Main */
