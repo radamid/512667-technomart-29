@@ -166,7 +166,8 @@ img {
   background: var(--success);
 }
 
-.header-logo:active {
+.header-logo:active,
+.footer-logo:active {
   background: var(--error);
   box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.24);
 }
