@@ -671,11 +671,16 @@ img {
   height: auto;
 }
 
-.service-list > .service-active,
-.service-list > .service-item:hover {
+.service-active {
   color: var(--special-bluedark);
   background: var(--white);
   box-shadow: 0px 1px 0px var(--white);
+}
+
+.service-item:hover {
+  color: var(--white);
+  background: var(--special-background);
+  box-shadow: 0px 1px 0px var(--special-background), inset 0px 1px 0px var(--special-shadow);
 }
 
 .partner-list {
