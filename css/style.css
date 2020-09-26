@@ -515,6 +515,7 @@ img {
   width: 620px;
   height: 266px;
   background: var(--special-background);
+  background-image: url(../img/slider-perforator.jpg);
 }
 
 .slider-title {
