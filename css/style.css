@@ -474,6 +474,7 @@ img {
   line-height: 18px;
   text-transform: uppercase;
   color: var(--white);
+  background: rgba(255, 255, 255, 0.3); /* White */
 }
 
 .features:nth-child(2) {
@@ -494,6 +495,18 @@ img {
 
 .deliveries {
   background: var(--special-yellowlight);
+}
+
+.feature-link:hover,
+.discount-link:hover,
+.delivery-link:hover {
+  background: rgba(197, 197, 197, 0.3); /* Basic-greylight */
+}
+
+.feature-link:active,
+.discount-link:active,
+.delivery-link:active {
+  background: rgba(169, 169, 169, 0.3); /* Greydark */
 }
 
 /* Sliders, Products, Brands, Services, Contacts, Articles */
