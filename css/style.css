@@ -146,8 +146,10 @@ img {
 
 .header-bar {
   min-width: 940px;
-  justify-self: center;
   height: 42px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-self: center;
   color: var(--white);
   background: var(--special-background);
 }
