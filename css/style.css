@@ -368,6 +368,14 @@ img {
   background: var(--white);
 }
 
+/* Container */
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 0;
+}
+
 /* Breadcrumbs, Filter, Paginator */
 
 .breadcrumbs-list,
