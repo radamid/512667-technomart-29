@@ -722,6 +722,13 @@ img {
   background-color: var(--basic-background);
 }
 
+.main-services {
+  width: 940px;
+  /*height: 261px;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .service-title,
 .company-title,
 .contact-title,
