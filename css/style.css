@@ -293,6 +293,8 @@ img {
 .product-list,
 .service-list,
 .social-list {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -380,6 +382,8 @@ img {
 
 .breadcrumbs-list,
 .paginator-list {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
