@@ -564,6 +564,10 @@ img {
   height: auto;
 }
 
+.populars {
+  background: var(--redlight);
+}
+
 .popular-title,
 .brand-title,
 .service-title,
@@ -730,6 +734,10 @@ img {
   color: var(--white);
 }
 
+.social-content {
+  color: var(--white);
+}
+
 .feedback-link,
 .developer-link {
   font-family: "Cuprum";
@@ -742,10 +750,6 @@ img {
 .feedback-link,
 .developer-link {
   color: var(--special-yellowlight);
-}
-
-.populars {
-  background: var(--redlight);
 }
 
 .feedback-link:hover,
