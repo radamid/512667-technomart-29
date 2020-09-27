@@ -832,7 +832,7 @@ img {
 .footer-bottom {
   /*width: 940px;*/
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr max-content 1fr;
   background: var(--special-background);
   /*justify-self: center;*/
 }
@@ -855,6 +855,12 @@ img {
   font-size: 16px;
   line-height: 18px;
   color: var(--white);
+}
+
+.social-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: start;
 }
 
 .social-content {
