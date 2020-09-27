@@ -863,6 +863,11 @@ img {
   align-content: start;
 }
 
+.footer-author {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .social-content {
   color: var(--white);
 }
