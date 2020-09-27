@@ -137,6 +137,10 @@ img {
   background: var(--basic-background);
 }
 
+.navigation {
+  margin-bottom: 60px;
+}
+
 /* Bar */
 
 .header-bar {
