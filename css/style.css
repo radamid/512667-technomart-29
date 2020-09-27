@@ -134,11 +134,11 @@ img {
 /* Header */
 
 .page-header {
-  background: var(--basic-background);
+  margin-bottom: 60px;
 }
 
 .navigation {
-  margin-bottom: 60px;
+  background: var(--basic-background);
 }
 
 /* Bar */
