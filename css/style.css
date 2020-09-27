@@ -818,7 +818,23 @@ img {
 .page-footer {
   width: auto;
   min-height: 300px;
+  /*background: var(--special-bluedark);*/
+}
+
+.footer-top {
+  /*width: 940px;*/
+  display: grid;
+  grid-template-columns: 2fr 3fr;
   background: var(--special-bluedark);
+  /*justify-self: center;*/
+}
+
+.footer-bottom {
+  /*width: 940px;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: var(--special-background);
+  /*justify-self: center;*/
 }
 
 .footer-address,
