@@ -518,15 +518,15 @@ img {
   background: rgba(255, 255, 255, 0.3); /* White */
 }
 
-.features:nth-child(2) {
+.materials {
   background: var(--special-yellow);
 }
 
-.features:nth-child(3) {
+.instruments {
   background: var(--special-blue);
 }
 
-.features:nth-child(4) {
+.technics {
   background: var(--special-lilac);
 }
 
