@@ -300,6 +300,25 @@ img {
 
 /* Navigation */
 
+.navigation-header {
+  max-width: 940px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: max-content max-content max-content max-content max-content max-content max-content;
+  gap: 50px;
+  justify-content: center;
+}
+
+.navigation-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .navigation-list {
   margin: 0;
   padding: 0;
@@ -321,6 +340,7 @@ img {
 .navigation-header {
   width: 940px;
   justify-self: center;
+  background: var(--special-bluedark);
 }
 
 .navigation-header .navigation-link {
