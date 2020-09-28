@@ -441,6 +441,12 @@ img {
   color: var(--black);
 }
 
+.main-filter {
+  max-width: 940px;
+  display: grid;
+  grid-template-columns: 240px 700px;
+}
+
 .filter-menu,
 .filter-button,
 .filter-link,
@@ -691,7 +697,20 @@ img {
   height: auto;
 }
 
-.product-list,
+.products .product-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-content: start;
+}
+
+.select-products .product-list {
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  align-content: start;
+}
+
 .brand-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
