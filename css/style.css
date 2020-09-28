@@ -411,6 +411,22 @@ img {
   list-style: none;
 }
 
+.breadcrumbs-list {
+  padding-left: 15px;
+  width: 300px;
+  display: grid;
+  grid-template-columns: 80px 110px 110px;
+  align-content: left-center;
+  list-style-image: url("https://via.placeholder.com/13x13");
+}
+
+.paginator-list {
+  width: 275px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-content: left-center;
+}
+
 .breadcrumbs-item {
   background: var(--white);
 }
