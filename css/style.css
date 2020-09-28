@@ -480,8 +480,13 @@ img {
   height: 38px;
 }
 
-.filter-brands > label,
-.filter-power > label {
+.filter-brands,
+.filter-power {
+  padding-bottom: 20px;
+}
+
+.filter-brands > div,
+.filter-power > div {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: normal;
@@ -489,6 +494,11 @@ img {
   line-height: 19px;
   text-transform: uppercase;
   color: var(--black);
+}
+
+.filter-brands > div > label,
+.filter-power > div > label {
+  padding-left: 5px;
 }
 
 .filter-link:hover {
