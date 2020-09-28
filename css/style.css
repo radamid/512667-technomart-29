@@ -450,9 +450,13 @@ img {
 .filter-menu {
   max-width: 700px;
   display: grid;
-  grid-template-columns: 100px 80px 80px 120px 120px 100px;
-  gap-columns: 5px;
+  grid-template-columns: 120px 100px 100px 140px 140px 120px;
   align-content: center;
+}
+
+.filter-menu a {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .filter-content,
