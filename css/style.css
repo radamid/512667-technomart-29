@@ -428,7 +428,7 @@ img {
   width: 300px;
   display: grid;
   grid-template-columns: 80px 110px 110px;
-  align-content: left-center;
+  align-content: left;
   list-style-image: url("https://via.placeholder.com/13x13");
 }
 
