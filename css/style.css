@@ -679,13 +679,6 @@ img {
   margin-top: 20px;
   margin-left: 23px;
   padding: 0;
-  font-family: "Cuprum Bold";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 30px;
-  align-items: center;
-  color: var(--white);
 }
 
 .feature-link,
@@ -698,16 +691,8 @@ img {
   margin-top: 64px;
   margin-left: 23px;
   padding: 0;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 18px;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--white);
-  background: rgba(255, 255, 255, 0.3);
+  justify-content: center;
+  align-items: center; 
 }
 
 /* Sliders */
@@ -773,14 +758,6 @@ img {
   margin-top: 23px;
   margin-left: 24px;
   padding: 0;
-  font-family: "Cuprum Bold";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 36px;
-  align-items: center;
-  text-transform: uppercase;
-  color: var(--white);
 }
 
 .slider-content {
@@ -789,14 +766,6 @@ img {
   margin-top: 64px;
   margin-left: 24px;
   padding: 0;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 24px;
-  align-items: center;
-  text-transform: uppercase;
-  color: var(--white);
 }
 
 .slider-link {
@@ -807,17 +776,8 @@ img {
   margin-top: 201px;
   margin-left: 24px;
   padding: 0;
-  display: flex;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 18px;
+  justify-content: center;
   align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--white);
-  background: var(--basic-red);
 }
 
 .slider-link:hover {
