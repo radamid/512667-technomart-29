@@ -1011,10 +1011,26 @@ img {
   color: var(--black);
 }
 
+.company-link {
+  display: flex;
+  width: 220px;
+  height: 38px;
+  align-items: center;
+  justify-content: center;
+}
+
 .contacts,
 .contact-map {
   width: 300px;
   height: auto;
+}
+
+.contact-link {
+  display: flex;
+  width: 300px;
+  height: 38px;
+  align-items: center;
+  justify-content: center;
 }
 
 .articles {
