@@ -755,7 +755,26 @@ img {
 .brand-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
   align-content: start;
+}
+
+.brand-link {
+  width: 220px;
+  height: 145px;
+  align-items: center;
+  text-align: center;
+  background: var(--white);
+  border: 1px solid var(--greylight);
+  box-sizing: border-box;
+}
+
+.brand-link:hover {
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.15));
+}
+
+.brand-link:active {
+  opacity: 0.5;
 }
 
 .populars {
