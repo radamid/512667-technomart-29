@@ -677,25 +677,21 @@ img {
 .feature-title,
 .discount-title,
 .delivery-title {
-  display: flex;
   position: absolute;
   margin-top: 20px;
   margin-left: 23px;
-  padding: 0;
+  
 }
 
 .feature-link,
 .discount-link,
 .delivery-link {
-  display: flex;
   position: absolute;
   width: 135px;
-  height: 38px;
   margin-top: 64px;
   margin-left: 23px;
-  padding: 0;
-  justify-content: center;
-  align-items: center; 
+  padding: 10px;
+  text-align: center;
 }
 
 /* Sliders */
@@ -767,7 +763,6 @@ img {
 }
 
 .slider-title {
-  display: flex;
   position: absolute;
   margin-top: 23px;
   margin-left: 24px;
@@ -775,7 +770,6 @@ img {
 }
 
 .slider-content {
-  display: flex;
   position: absolute;
   margin-top: 64px;
   margin-left: 24px;
@@ -783,15 +777,12 @@ img {
 }
 
 .slider-link {
-  display: flex;
   position: absolute;
   width: 192px;
-  height: 38px;
   margin-top: 201px;
   margin-left: 24px;
-  padding: 0;
-  justify-content: center;
-  align-items: center;
+  padding: 10px;
+  text-align: center;
 }
 
 .slider-link:hover {
@@ -828,17 +819,12 @@ img {
 .brand-link {
   width: 220px;
   height: 145px;
-  align-items: center;
+  padding: 10px;
+  text-align: center;
   text-align: center;
   background: var(--white);
   border: 1px solid var(--greylight);
   box-sizing: border-box;
-}
-
-.brand-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .brand-link:hover {
@@ -1007,9 +993,7 @@ img {
 }
 
 .service-item {
-  display: flex;
   padding-left: 22px;
-  align-items: center;
 }
 
 .service-item-title {
@@ -1054,26 +1038,18 @@ img {
   color: var(--black);
 }
 
-.company-link {
-  display: flex;
-  width: 220px;
-  height: 38px;
-  align-items: center;
-  justify-content: center;
+.company-link,
+.contact-link {
+  display: block;
+  width: 300px;
+  padding: 10px 0;
+  text-align: center;
 }
 
 .contacts,
 .contact-map {
   width: 300px;
   height: auto;
-}
-
-.contact-link {
-  display: flex;
-  width: 300px;
-  height: 38px;
-  align-items: center;
-  justify-content: center;
 }
 
 .articles {
