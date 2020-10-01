@@ -817,11 +817,11 @@ img {
 }
 
 .brand-link {
+  display: flex;
   width: 220px;
   height: 145px;
-  padding: 10px;
-  text-align: center;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
   background: var(--white);
   border: 1px solid var(--greylight);
   box-sizing: border-box;
@@ -980,8 +980,11 @@ img {
 }
 
 .service-item {
+  display: flex;
   width: 240px;
   height: 61px;
+  padding-left: 22px;
+  align-items: center;
   font-family: "Cuprum Bold";
   font-style: normal;
   font-weight: bold;
@@ -1051,6 +1054,8 @@ img {
   width: 300px;
   height: auto;
 }
+
+
 
 .articles {
   background: var(--basic-background);
