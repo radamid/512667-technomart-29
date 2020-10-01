@@ -736,6 +736,15 @@ img {
   background: var(--basic-red);
 }
 
+.all-products-link,
+.all-brands-link {
+  display: flex;
+  width: 192px;
+  height: 38px;
+  align-items: center;
+  justify-content: center;
+}
+
 .slider-link:hover,
 .all-products-link:hover,
 .all-brands-link:hover,
