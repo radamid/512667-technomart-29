@@ -963,6 +963,12 @@ img {
   box-shadow: 0px 1px 0px var(--special-background), inset 0px 1px 0px var(--special-shadow);
 }
 
+.service-item {
+  display: flex;
+  padding-left: 22px;
+  align-items: center;
+}
+
 .service-item-title {
   font-family: "Cuprum";
   font-style: normal;
