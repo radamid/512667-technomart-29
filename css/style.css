@@ -669,6 +669,47 @@ img {
   grid-area: sliders;
 }
 
+/* Flex */
+
+.feature-title,
+.discount-title,
+.delivery-title {
+  display: flex;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 23px;
+  padding: 0;
+  font-family: "Cuprum Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  align-items: center;
+  color: var(--white);
+}
+
+.feature-link,
+.discount-link,
+.delivery-link {
+  display: flex;
+  position: absolute;
+  width: 135px;
+  height: 38px;
+  margin-top: 64px;
+  margin-left: 23px;
+  padding: 0;
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.3);
+}
+
 /* Sliders */
 
 .sliders {
