@@ -318,6 +318,7 @@ img {
   grid-template-columns: max-content max-content max-content max-content max-content max-content max-content;
   gap: 50px;
   justify-content: center;
+  background: var(--special-bluedark);
 }
 
 .navigation-footer {
