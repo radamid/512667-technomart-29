@@ -738,9 +738,11 @@ img {
 
 .all-products-link,
 .all-brands-link {
-  display: flex;
   width: 192px;
   height: 38px;
+  display:flex;
+  position: relative;
+  float: right;
   align-items: center;
   justify-content: center;
 }
@@ -855,10 +857,21 @@ img {
 }
 
 .populars {
-  width: 940px;
+  display: flex;
+  max-width: 940px;
   height: 89px;
   margin-bottom: 20px;
+  padding-left: 28px;
+  padding-right: 14px;
+  align-items: center;
+  margin-bottom: 59px;
   background: var(--redlight);
+}
+
+.popular-title,
+.brand-title {
+  display:flex;
+  width: 716px;
 }
 
 .popular-title,
