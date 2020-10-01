@@ -312,11 +312,11 @@ img {
 /* Navigation */
 
 .navigation-header {
-  max-width: 940px;
+  width: 940px;
   padding: 0;
   display: grid;
   grid-template-columns: max-content max-content max-content max-content max-content max-content max-content;
-  gap: 50px;
+  gap: 5px;
   justify-content: center;
   background: var(--special-bluedark);
 }
@@ -339,10 +339,12 @@ img {
 }
 
 .navigation-item {
+  padding: 20px 0;
   background: var(--special-bluedark);
 }
 
 .navigation-link {
+  padding: 20px 30px 20px 30px;
   font-family: "Cuprum";
   font-style: normal;
   font-weight: normal;
