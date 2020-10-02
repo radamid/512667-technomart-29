@@ -311,7 +311,7 @@ img {
 
 /* Navigation */
 
-.navigation-header {
+.main-navigation {
   width: 940px;
   padding: 0;
   display: grid;
@@ -326,7 +326,7 @@ img {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.footer-menu {
+.navigation-menu {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -351,13 +351,13 @@ img {
   font-size: 18px;
 }
 
-.navigation-header {
+.main-navigation {
   width: 940px;
   justify-self: center;
   background: var(--special-bluedark);
 }
 
-.navigation-header .navigation-link {
+.main-navigation .navigation-link {
   color: var(--white);
 }
 
@@ -365,21 +365,21 @@ img {
   color: var(--basic-background);
 }
 
-.footer-menu .navigation-link {
+.navigation-menu .navigation-link {
   color: var(--special-yellowlight);
 }
 
-.navigation-header .navigation-link:hover {
+.main-navigation .navigation-link:hover {
   background: var(--special-background);
   box-shadow: inset 0px -5px 0px var(--special-background);
 }
 
 .navigation-footer .navigation-link:hover,
-.footer-menu .navigation-link:hover {
+.navigation-menu .navigation-link:hover {
   text-decoration-line: underline;
 }
 
-.navigation-header .navigation-link:active {
+.main-navigation .navigation-link:active {
   opacity: 0.5;
   background: var(--active-navigation);
   box-shadow: inset 0px -5px 0px var(--special-background);
@@ -391,7 +391,7 @@ img {
   opacity: 0.5;
 }
 
-.footer-menu .navigation-link:active {
+.navigation-menu .navigation-link:active {
   color: var(--special-yellowlight);
   /*mix-blend-mode: normal;*/
   opacity: 0.5;
@@ -722,8 +722,7 @@ img {
 }
 
 .slider-link,
-.all-products-link,
-.all-brands-link,
+.popular-link,
 .company-link,
 .contact-link {
   font-family: "Cuprum";
@@ -735,8 +734,7 @@ img {
   background: var(--basic-red);
 }
 
-.all-products-link,
-.all-brands-link {
+.popular-link {
   width: 192px;
   height: 38px;
   display:flex;
@@ -747,16 +745,14 @@ img {
 }
 
 .slider-link:hover,
-.all-products-link:hover,
-.all-brands-link:hover,
+.popular-link:hover,
 .company-link:hover,
 .contact-link:hover {
   background: var(--red-button-hover);
 }
 
 .slider-link:active,
-.all-products-link:active,
-.all-brands-link:active,
+.popular-link:active,
 .company-link:active,
 .contact-link:active {
   background: var(--red-button-active);
@@ -847,14 +843,12 @@ img {
   background: var(--redlight);
 }
 
-.popular-title,
-.brand-title {
+.popular-title {
   display:flex;
   width: 716px;
 }
 
 .popular-title,
-.brand-title,
 .service-title,
 .service-item-title,
 .company-title,
@@ -870,7 +864,6 @@ img {
 }
 
 .popular-title,
-.brand-title,
 .service-title,
 .service-item-title,
 .company-title,
@@ -915,8 +908,8 @@ img {
   color: var(--black);
 }
 
-.product-price-old,
-.product-price-new {
+.old-price,
+.new-price {
   font-family: "PT Sans Bold";
   font-style: normal;
   font-weight: bold;
@@ -925,7 +918,7 @@ img {
   text-transform: uppercase;
 }
 
-.product-price-old {
+.old-price {
   margin-top: 0;
   margin-bottom: 10px;
   text-align: center;
@@ -933,7 +926,7 @@ img {
   color: var(--greydark);
 }
 
-.product-price-new {
+.new-price {
   width: 141px;
   height: 38px;
   margin: auto;
