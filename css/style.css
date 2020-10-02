@@ -140,6 +140,8 @@ img {
 }
 
 .navigation {
+  padding-top: 41px;
+  padding-bottom: 60px;
   min-height: 150px;
   display: grid;
   background: var(--basic-background);
@@ -228,10 +230,11 @@ img {
 /* Head */
 
 .header {
+  padding-bottom: 20px;
   width: 940px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-self: center;
+  
 }
 
 .header-content {
@@ -244,6 +247,11 @@ img {
 }
 
 .header-phone {
+  display: block;
+  width: 270px;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
   font-family: "Cuprum Bold";
   font-style: normal;
   font-weight: bold;
@@ -256,6 +264,8 @@ img {
 }
 
 .header-address {
+  /*text-align: center;*/
+  padding-left: 10px;
   font-family: "Cuprum";
   font-style: normal;
   font-weight: normal;
@@ -271,6 +281,12 @@ img {
   font-size: 21px;
   line-height: 21px;
   color: var(--black);
+}
+
+.login-link,
+.register-link {
+  padding: 10px 20px;
+  background: var(--white);
 }
 
 .user-orders,
@@ -313,10 +329,11 @@ img {
 
 .main-navigation {
   width: 940px;
+  /*min-height: 60px;*/
   padding: 0;
   display: grid;
   grid-template-columns: max-content max-content max-content max-content max-content max-content max-content;
-  gap: 5px;
+  gap: 4px;
   justify-content: center;
   background: var(--special-bluedark);
 }
@@ -339,22 +356,16 @@ img {
 }
 
 .navigation-item {
-  padding: 20px 0;
+  padding: 15px 0;
   background: var(--special-bluedark);
 }
 
 .navigation-link {
-  padding: 20px 30px 20px 30px;
+  padding: 15px 30px 15px 30px;
   font-family: "Cuprum";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-}
-
-.main-navigation {
-  width: 940px;
-  justify-self: center;
-  background: var(--special-bluedark);
 }
 
 .main-navigation .navigation-link {
