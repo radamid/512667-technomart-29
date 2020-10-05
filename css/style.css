@@ -400,6 +400,7 @@ img {
   min-height: 60px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   background: var(--special-bluedark);
   box-shadow: inset 0px -5px 0px #293449;
 }
@@ -411,7 +412,8 @@ img {
 
 .main-navigation .navigation-link {
   display: block;
-  padding: 16px 30px 15px 30px;
+  padding: 16px 25px 15px 25px;
+  
   color: var(--white);
   background: var(--special-bluedark);
 }
