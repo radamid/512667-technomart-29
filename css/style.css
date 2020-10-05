@@ -118,6 +118,25 @@ img {
   height: auto;
 }
 
+/* Visually Hidden */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.cut-down {
+  display: none;
+}
+
 /* Grid */
 
 .page {
@@ -1007,8 +1026,7 @@ img {
 }
 
 .product-list,
-.service-list,
-.social-list {
+.service-list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -1305,8 +1323,10 @@ img {
 
 .footer-top > .container {
   width: 940px;
+  min-height: 193px;
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 390px 1fr;
+  grid-template-rows: 90px 1fr;
 }
 
 .footer-logo {
@@ -1380,14 +1400,13 @@ img {
 /* Footer Bottom */
 
 .footer-bottom {
-  padding-top: 36px;
   background: var(--special-background);
 }
 
 .footer-bottom > .container {
   width: 940px;
   display: grid;
-  grid-template-columns: 1fr 134px 1fr;
+  grid-template-columns: 390px 1fr 190px 105px;
 }
 
 /* Copyright */
@@ -1404,15 +1423,33 @@ img {
 }
 
 .social-list {
-  margin-top: 21px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 136px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-between;
 }
 
 .social-content {
   color: var(--white);
+}
+
+.social-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(0deg, #212a3a, #212a3a);
+}
+
+.social-link:hover,
+.social-link:active {
+  background: var(--basic-red);
 }
 
 .feedback-link,
@@ -1422,19 +1459,6 @@ img {
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
-}
-
-.footer-author {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.feedback-content {
-  padding-left: 63px;
-}
-
-.developer-content {
-  padding-left: 51px;
 }
 
 .feedback-link,
@@ -1451,14 +1475,4 @@ img {
 .developer-link:active {
   text-decoration-line: none;
   color: var(--basic-red);
-}
-
-/* Visually Hidden */
-
-.visually-hidden {
-  visibility: hidden;
-}
-
-.cut-down {
-  display: none;
 }
