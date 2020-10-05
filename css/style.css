@@ -778,8 +778,75 @@ img {
   width: 135px;
   margin-top: 64px;
   margin-left: 23px;
-  padding: 10px;
+  padding: 10px 0;
   text-align: center;
+}
+
+/* Feature Images */
+
+.main-features > section:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  margin-top: 31px;
+  margin-left: 213px;
+  width: 44px;
+  height: 65px;
+  background-image: url("../img/icon-materials.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.main-features > section:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  margin-top: 34px;
+  margin-left: 194px;
+  width: 75px;
+  height: 61px;
+  background-image: url("../img/icon-instruments.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.main-features > section:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  margin-top: 31px;
+  margin-left: 191px;
+  width: 78px;
+  height: 62px;
+  background-image: url("../img/icon-technics.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.main-features > section:nth-child(5)::before {
+  content: "";
+  position: absolute;
+  margin-top: 26px;
+  margin-left: 196px;
+  width: 59px;
+  height: 73px;
+  background-image: url("../img/icon-discount.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.main-features > section:nth-child(6)::before {
+  content: "";
+  position: absolute;
+  margin-top: 32px;
+  margin-left: 191px;
+  width: 78px;
+  height: 63px;
+  background-image: url("../img/icon-delivery.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
 }
 
 /* Sliders */
