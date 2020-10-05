@@ -118,29 +118,6 @@ img {
   height: auto;
 }
 
-/* Visually Hidden */
-
-.hidden-title {
-  visibility: hidden;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.cut-down {
-  display: none;
-}
-
 /* Grid */
 
 .page {
@@ -1479,4 +1456,27 @@ img {
 .developer-link:active {
   text-decoration-line: none;
   color: var(--basic-red);
+}
+
+/* Visually Hidden */
+
+.hidden-title {
+  visibility: hidden;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.cut-down {
+  display: none;
 }
