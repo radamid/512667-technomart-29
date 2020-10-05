@@ -296,6 +296,17 @@ img {
   background: var(--bluelight);
 }
 
+.header-phone::before {
+  content: "";
+  position: relative;
+  left: -16px;
+  width: 19px;
+  height: 19px;
+  background-image: url("../img/icon-phone.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
 .header-address {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
