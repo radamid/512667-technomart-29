@@ -168,7 +168,10 @@ img {
 }
 
 .header-logo {
-  padding: 10px;
+  position: relative;
+  height: 37px;
+  padding-top: 10px;
+  padding-bottom: 0;
   text-align: center;
   font-family: "Cuprum";
   font-style: normal;
