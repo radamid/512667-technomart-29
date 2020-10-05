@@ -823,6 +823,33 @@ img {
   background-size: cover;
 }
 
+.main-features > section:nth-child(4)::before {
+  content: "";
+  position: absolute;
+  margin-top: 122px;
+  margin-left: 24px;
+  width: 22px;
+  height: 40px;
+  background-image: url("../img/icon-left.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.main-features > section:nth-child(4)::after {
+  content: "";
+  position: absolute;
+  margin-top: 122px;
+  margin-left: 578px;
+  width: 22px;
+  height: 40px;
+  background-image: url("../img/icon-left.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  transform: rotate(-180deg);
+}
+
 .main-features > section:nth-child(5)::before {
   content: "";
   position: absolute;
