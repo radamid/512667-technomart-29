@@ -1074,14 +1074,32 @@ img {
 }
 
 .partner-list {
-  list-style-image: url("https://via.placeholder.com/25x2");
+  margin: 0 0 6px 37px;
+  padding: 0;
+  list-style: none;
 }
 
 .partner-item {
+  position: relative;
+  margin: 0 42px 0 0;
+}
+
+.partner-item::after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: -37px;
+  width: 25px;
+  height: 2px;
+  background-color: var(--basic-red);
+}
+
+.partner-link {
   font-family: "Cuprum";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
+  line-height: 24px;
   color: var(--black);
 }
 
