@@ -1393,8 +1393,10 @@ img {
 
 .footer-bottom > .container {
   width: 940px;
+  min-height: 107px;
   display: grid;
   grid-template-columns: 390px 1fr 190px 105px;
+  align-items: center;
 }
 
 /* Copyright, Social, Feedback, Developer */
