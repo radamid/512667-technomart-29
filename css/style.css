@@ -1306,15 +1306,14 @@ img {
   width: 940px;
   min-height: 193px;
   display: grid;
-  grid-template-columns: 390px 1fr;
-  grid-template-rows: 90px 1fr;
+  grid-template-columns: 390px 22px; 1fr;
+  grid-template-rows: 90px min-content min-content;
 }
 
 .footer-logo {
   display: flex;
   width: 220px;
   height: 68px;
-  margin-bottom: 22px;
   align-items: center;
   justify-content: center;
   font-family: "Cuprum";
@@ -1327,10 +1326,6 @@ img {
   box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.24);
 }
 
-.footer-company {
-  padding-bottom: 54px;
-}
-
 .footer-address,
 .footer-phone {
   font-family: "Cuprum";
@@ -1340,19 +1335,31 @@ img {
   color: var(--bluelight);
 }
 
+.footer-address {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.footer-phone {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
 /* Footer Navigation */
 
 .navigation-footer {
-  padding-top: 34px;
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 
 .navigation-menu {
-  padding-top: 34px;
-  padding-left: 22px;
+  grid-column: 3 / 4;
+  grid-row: 2 / 4;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -1390,7 +1397,7 @@ img {
   grid-template-columns: 390px 1fr 190px 105px;
 }
 
-/* Copyright */
+/* Copyright, Social, Feedback, Developer */
 
 .copyright-content,
 .feedback-content,
@@ -1419,11 +1426,12 @@ img {
 }
 
 .social-link {
-  width: 44px;
-  height: 44px;
+  width: 43px;
+  height: 43px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid var(--special-background);
   border-radius: 50%;
   background: linear-gradient(0deg, #212a3a, #212a3a);
 }
