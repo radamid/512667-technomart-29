@@ -185,16 +185,72 @@ img {
   box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.24);
 }
 
+.search-wrapper {
+  height: 42px;
+  background-color: var(--special-background);
+}
+
 .search-field {
-  margin-left: 30px;
-  height: 40px;
+  padding: 9px 0 9px 42px;
   font-family: "Cuprum";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
+  line-height: 24px;
   color: var(--white);
   border: none;
-  background: var(--special-background);
+  box-sizing: border-box;
+  background-color: var(--special-background);
+}
+
+.search-wrapper > svg {
+  position: absolute;
+  top: 12px;
+  padding-left: 17px;
+}
+
+.search-wrapper:hover {
+  color: var(--white);
+  background-color: var(--special-background);
+}
+
+.search-wrapper:hover > svg path {
+  opacity: 1.0;
+}
+
+.search-wrapper:active > svg path {
+  fill: var(--basic-red);
+}
+
+.search-wrapper:active {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.search-field:focus,
+.search-field:active {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.search-field:focus > svg path {
+  fill: var(--basic-red);
+}
+
+.search-field::-webkit-input-placeholder {
+  color: var(--white);
+}
+
+.search-field:-moz-placeholder {
+  color: var(--white);
+}
+ 
+.search-field::-moz-placeholder {
+  color: var(--white);
+}
+ 
+.search-field:-ms-input-placeholder {
+  color: var(--white);
 }
 
 .bookmark-link,
@@ -250,23 +306,18 @@ img {
   background: var(--basic-green);
 }
 
-.search-field:focus {
-  color: var(--black);
-  background: var(--white);
-}
-
 .bookmark-link:hover path,
 .basket-link:hover path {
-  fill: var(--white);
+  opacity: 1.0;
 }
 
 .bookmark-link:active path,
 .basket-link:active path {
-  fill: var(--basic-greylight);
+  opacity: 0.3;
 }
 
 .basket-active path {
-  fill: var(--white);
+  opacity: 1.0;
 }
 
 /* Main Header */
