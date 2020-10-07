@@ -265,6 +265,10 @@ img {
   fill: var(--basic-greylight);
 }
 
+.basket-active path {
+  fill: var(--white);
+}
+
 /* Main Header */
 
 .main-header {
