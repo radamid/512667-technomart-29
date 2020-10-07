@@ -1117,9 +1117,10 @@ img {
 }
 
 .product-basket-link {
-  width: 135px;
+  width: 127px;
   min-height: 28px;
   padding-top: 10px;
+  padding-left: 8px;
   position: absolute;
   top: 38px;
   left: 41px;
@@ -1198,6 +1199,19 @@ img {
 
 .product-bookmark-link:active {
   opacity: 0.5;
+}
+
+.product-basket-link::before {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 30px;
+  opacity: 0.3;
+  background-image: url("../img/icon-cart.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
 }
 
 /* New Product */
