@@ -1184,6 +1184,22 @@ img {
   display: block;
 }
 
+.product-basket-link:hover {
+  background: var(--success);
+}
+
+.product-bookmark-link:hover {
+  border: 3px solid var(--special-bluedark);
+}
+
+.product-basket-link:active {
+  background: #518534;
+}
+
+.product-bookmark-link:active {
+  opacity: 0.5;
+}
+
 /* New Product */
 
 .product-item.new-action::before {
