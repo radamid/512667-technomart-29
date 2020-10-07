@@ -1105,6 +1105,44 @@ img {
   text-align: center;
 }
 
+.product-basket-link,
+.product-bookmark-link {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.product-basket-link {
+  width: 135px;
+  min-height: 28px;
+  padding-top: 10px;
+  position: absolute;
+  top: 38px;
+  left: 41px;
+  color: var(--white);
+  background: var(--basic-green);
+  box-shadow: inset 0px -3px 0px #367315;
+  border-radius: 2px;
+}
+
+.product-bookmark-link {
+  width: 135px;
+  min-height: 38px;
+  padding-top: 11px;
+  padding-bottom: 9px;
+  position: absolute;
+  top: 86px;
+  left: 41px;
+  color: var(--special-bluedark);
+  border: 3px solid var(--basic-green);
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
 .old-price,
 .new-price {
   font-family: "PT Sans Bold";
