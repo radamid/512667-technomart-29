@@ -225,32 +225,6 @@ img {
   background: var(--basic-red);
 }
 
-/*.bookmark-link::before {
-  content: "";
-  position: absolute;
-  margin-top: 3px;
-  margin-left: -23px;
-  width: 14px;
-  height: 16px;
-  background-image: url("../img/icon-bookmark.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: cover;
-}*/
-
-/*.basket-link::before {
-  content: "";
-  position: absolute;
-  margin-top: 3px;
-  margin-left: -23px;
-  width: 15px;
-  height: 15px;
-  background-image: url("../img/icon-cart.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: cover;
-}*/
-
 .order-link {
   background: var(--basic-green);
 }
