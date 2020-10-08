@@ -259,6 +259,7 @@ img {
 }
 
 .search-field:focus + svg path {
+  opacity: 1.0;
   fill: var(--basic-red);
 }
 
@@ -267,14 +268,17 @@ img {
 }
 
 .search-field:focus::-moz-placeholder + svg path {
+  opacity: 1.0;
   fill: var(--basic-red);
 }
 
 .search-field:focus:-moz-placeholder + svg path {
+  opacity: 1.0;
   fill: var(--basic-red);
 }
 
 .search-field:focus:-ms-input-placeholder + svg path {
+  opacity: 1.0;
   fill: var(--basic-red);
 }
 
