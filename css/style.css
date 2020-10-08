@@ -713,11 +713,21 @@ img {
 
 .filter-brands,
 .filter-power {
-  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
-.filter-brands > div,
-.filter-power > div {
+.filter-checkbox,
+.filter-radio {
+  margin: 10px 0;
+  position: relative;
+}
+
+.filter-checkbox > span,
+.filter-radio > span {
+  padding-left: 35px;
   font-family: "PT Sans";
   font-style: normal;
   font-weight: normal;
@@ -727,9 +737,28 @@ img {
   color: var(--black);
 }
 
-.filter-brands > div > label,
-.filter-power > div > label {
-  padding-left: 5px;
+.filter-checkbox > span::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 27px;
+  height: 23px;
+  background-image: url("../img/checkbox-off.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.filter-checkbox > span::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 23px;
+  height: 23px;
+  background-image: url("../img/checkbox-on.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 .filter-link:hover {
