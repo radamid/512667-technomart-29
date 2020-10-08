@@ -737,7 +737,7 @@ img {
   color: var(--black);
 }
 
-.filter-checkbox > span::before {
+.filter-checkbox > input ~ span::before {
   content: "";
   position: absolute;
   top: -2px;
@@ -749,7 +749,7 @@ img {
   background-position: top left;
 }
 
-.filter-checkbox > span::after {
+.filter-checkbox > input:checked ~ span::after {
   content: "";
   position: absolute;
   top: -2px;
