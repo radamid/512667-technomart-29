@@ -671,10 +671,12 @@ img {
 }
 
 .filter-menu {
-  max-width: 700px;
+  margin-bottom: 28px;
   display: grid;
-  grid-template-columns: 120px 100px 100px 140px 140px 120px;
+  grid-template-columns: 170px max-content max-content max-content max-content max-content;
+  gap: 20px;
   align-content: center;
+  background: #f7f3ec;
 }
 
 .filter-menu a {
@@ -683,6 +685,7 @@ img {
 }
 
 .filter-content {
+  padding-left: 18px;
   font-family: "PT Sans";
   font-style: normal;
   font-weight: normal;
@@ -702,16 +705,18 @@ img {
   color: var(--black);
   mix-blend-mode: normal;
   opacity: 0.3;
-  text-decoration-line: underline;
+  border-bottom: 1px dotted var(--basic-red);
 }
 
 .filter-link:hover {
   opacity: 1.0;
+  border-bottom: 1px solid var(--basic-red);
 }
 
-.filter-link:active {
+.filter-link-active {
+  border-bottom: none;
+  opacity: 1.0;
   color: var(--basic-red);
-  text-decoration-line: none;
 }
 
 .filter-brands,
