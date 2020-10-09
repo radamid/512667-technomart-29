@@ -654,6 +654,12 @@ img {
 
 /* Filter */
 
+.main-filter {
+  max-width: 940px;
+  display: grid;
+  grid-template-columns: 240px 700px;
+}
+
 .filter-title {
   font-family: "PT Sans Bold";
   font-style: normal;
@@ -664,10 +670,90 @@ img {
   color: var(--black);
 }
 
-.main-filter {
-  max-width: 940px;
-  display: grid;
-  grid-template-columns: 240px 700px;
+.filter-content {
+  padding-left: 18px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.range-filter {
+  width: 220px;
+}
+
+.range-controls {
+  position: relative;
+  height: 41px;
+  margin-bottom: 9px;
+  padding-top: 39px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #f7f3ec;
+  border-radius: 3px;
+}
+
+.range-controls .scale {
+  /*width: 180px;*/
+  height: 2px;
+  background: #d7dcde;
+}
+
+.range-controls .bar {
+  /*width: 152px;*/
+  height: 2px;
+  background: #00ca74;
+}
+
+.range-controls .toggle {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  border: 8px solid var(--white);
+  background-color: #ababab;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+  cursor: pointer;
+}
+
+.range-controls .toggle-min {
+  left: 20px;
+}
+
+.range-controls .toggle-max {
+  left: 158px;
+}
+
+.price-controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-controls label {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 18px;
+  text-transform: uppercase;
+  
+}
+
+.price-controls input {
+  width: 75px;
+  padding: 10px;
+  text-align: center;
+  color: var(--black);
+  border: none;
+  border-radius: 5px;
+  background: #f7f3ec;
+  font-family: inherit;
+  font-size: inherit;
 }
 
 .filter-menu {
@@ -682,17 +768,6 @@ img {
 .filter-menu a {
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.filter-content {
-  padding-left: 18px;
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 18px;
-  text-transform: uppercase;
-  color: var(--black);
 }
 
 .filter-link {
