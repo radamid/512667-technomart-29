@@ -682,8 +682,16 @@ img {
   margin-bottom: auto;
 }
 
-.filter-content,
-.filter-button,
+.filter-content {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
 .filter-link {
   font-family: "PT Sans";
   font-style: normal;
@@ -691,27 +699,19 @@ img {
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
-}
-
-.filter-content,
-.filter-button,
-.filter-link {
   color: var(--black);
-}
-
-.filter-link {
-  color: var(--black);
-  /*mix-blend-mode: normal;*/
+  mix-blend-mode: normal;
   opacity: 0.3;
   text-decoration-line: underline;
 }
 
-.filter-button {
-  width: 220px;
-  height: 38px;
-  background: var(--white);
-  border: 1px solid #E5E5E5;
-  box-sizing: border-box;
+.filter-link:hover {
+  opacity: 1.0;
+}
+
+.filter-link:active {
+  color: var(--basic-red);
+  text-decoration-line: none;
 }
 
 .filter-brands,
@@ -792,7 +792,6 @@ img {
   background-position: top left;
 }
 
-
 .filter-checkbox > input:hover ~ span::before,
 .filter-checkbox > input:hover ~ span::after,
 .filter-radio > input:hover ~ span::before,
@@ -813,14 +812,19 @@ img {
   opacity: 0.4;
 }
 
-.filter-link:hover {
-  /*color: var(--black);*/
-  opacity: 1.0;
-}
-
-.filter-link:active {
-  color: var(--basic-red);
-  text-decoration-line: none;
+.filter-button {
+  width: 220px;
+  height: 38px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--black);
+  background: var(--white);
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
 }
 
 /* Paginator */
