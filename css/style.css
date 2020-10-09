@@ -800,6 +800,11 @@ img {
   opacity: 0.3;
 }
 
+.filter-checkbox > input:checked:hover ~ span::before,
+.filter-radio > input:checked:hover ~ span::before {
+  opacity: 0;
+}
+
 .filter-checkbox > span:active,
 .filter-checkbox > span:active,
 .filter-radio > span:active,
