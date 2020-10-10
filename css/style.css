@@ -657,8 +657,17 @@ img {
 .main-filter {
   max-width: 940px;
   display: grid;
-  grid-template-columns: 240px 700px;
+  grid-template-columns: 220px 700px;
+  gap: 20px;
   align-items: flex-start;
+}
+
+.left-filter {
+  width: 220px;
+}
+
+.right-filter {
+  width: 700px;
 }
 
 .filter-title {
