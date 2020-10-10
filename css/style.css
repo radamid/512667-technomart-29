@@ -770,9 +770,10 @@ img {
 
 .filter-right-menu {
   margin-bottom: 28px;
+  padding-right: 14px;
   height: 38px;
   display: grid;
-  grid-template-columns: 170px max-content max-content max-content max-content max-content;
+  grid-template-columns: 220px 2fr 2fr 3fr max-content max-content;
   gap: 20px;
   align-content: center;
   border-radius: 3px;
@@ -790,21 +791,38 @@ img {
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
+}
+
+.filter-link span {
   color: var(--black);
   mix-blend-mode: normal;
   opacity: 0.3;
   border-bottom: 1px dotted var(--basic-red);
 }
 
-.filter-link:hover {
+.filter-link span:hover {
   opacity: 1.0;
   border-bottom: 1px solid var(--basic-red);
 }
 
-.filter-link-active {
+.filter-link-active span {
   border-bottom: none;
   opacity: 1.0;
   color: var(--basic-red);
+}
+
+.filter-up ~ svg,
+.filter-down ~ svg {
+  margin: auto 0;
+}
+
+.filter-up + svg:hover path,
+.filter-down + svg:hover path {
+  fill: var(--black);
+}
+
+.filter-dir-active + svg path {
+  fill: var(--basic-red);
 }
 
 .filter-brands,
