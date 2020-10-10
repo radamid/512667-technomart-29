@@ -658,6 +658,7 @@ img {
   max-width: 940px;
   display: grid;
   grid-template-columns: 240px 700px;
+  align-items: flex-start;
 }
 
 .filter-title {
@@ -671,6 +672,7 @@ img {
 }
 
 .filter-content {
+  margin: auto 0;
   padding-left: 18px;
   font-family: "PT Sans";
   font-style: normal;
@@ -679,6 +681,15 @@ img {
   line-height: 18px;
   text-transform: uppercase;
   color: var(--black);
+}
+
+.filter-left-menu {
+  display: flex;
+  width: 220px;
+  height: 38px;
+  margin-bottom: 28px;
+  border-radius: 3px;
+  background: #f7f3ec;
 }
 
 .range-filter {
@@ -757,18 +768,19 @@ img {
   font-size: inherit;
 }
 
-.filter-menu {
+.filter-right-menu {
   margin-bottom: 28px;
+  height: 38px;
   display: grid;
   grid-template-columns: 170px max-content max-content max-content max-content max-content;
   gap: 20px;
   align-content: center;
+  border-radius: 3px;
   background: #f7f3ec;
 }
 
-.filter-menu a {
-  margin-top: auto;
-  margin-bottom: auto;
+.filter-right-menu a {
+  margin: auto 0;
 }
 
 .filter-link {
