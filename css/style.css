@@ -152,11 +152,7 @@ img {
 
 /* Bar */
 
-.header-bar {
-  background: var(--special-background);
-}
-
-.bar {
+.bar-header {
   min-width: 940px;
   height: 42px;
   background: var(--special-background);
