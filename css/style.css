@@ -1919,13 +1919,15 @@ img {
 }
 
 .navigation-footer .navigation-link:active {
-  color: var(--basic-background);
   opacity: 0.5;
+  color: var(--basic-background);
+  text-decoration: none;
 }
 
 .navigation-menu .navigation-link:active {
-  color: var(--special-yellowlight);
   opacity: 0.5;
+  color: var(--special-yellowlight);
+  text-decoration: none;
 }
 
 /* Footer Bottom */
