@@ -798,22 +798,30 @@ img {
   text-transform: uppercase;
 }
 
-.filter-link span {
-  color: var(--black);
-  mix-blend-mode: normal;
+.filter-link {
   opacity: 0.3;
-  border-bottom: 1px dotted var(--basic-red);
+  mix-blend-mode: normal;
+  color: var(--black);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--basic-red);
+  text-underline-position: under;
 }
 
-.filter-link span:hover {
+.filter-link:hover {
   opacity: 1.0;
-  border-bottom: 1px solid var(--basic-red);
+  color: var(--black);
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: var(--basic-red);
+  text-underline-position: under;
+  cursor: pointer;
 }
 
-.filter-link-active span {
-  border-bottom: none;
+.filter-link-active {
   opacity: 1.0;
   color: var(--basic-red);
+  text-decoration: none;
 }
 
 .filter-up ~ svg,
@@ -824,6 +832,7 @@ img {
 .filter-up + svg:hover path,
 .filter-down + svg:hover path {
   fill: var(--black);
+  cursor: pointer;
 }
 
 .filter-dir-active + svg path {
