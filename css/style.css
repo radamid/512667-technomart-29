@@ -1002,6 +1002,10 @@ img {
   background: var(--white);
 }
 
+.paginator-link {
+  color: var(--black);
+}
+
 .paginator-list > .paginator-item-last {
   min-width: 140px;
 }
