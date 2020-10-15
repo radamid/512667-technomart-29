@@ -1880,6 +1880,10 @@ img {
   border: none;
 }
 
+.modal-map-show {
+  display: block;
+}
+
 /* Footer */
 
 .page-footer {
