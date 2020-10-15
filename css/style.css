@@ -999,7 +999,7 @@ img {
   border: 1px solid var(--paginator-border);
   box-sizing: border-box;
   border-radius: 2px;
-  background: color: var(--white);
+  background: var(--white);
 }
 
 .paginator-list > .paginator-item-last {
@@ -1007,7 +1007,6 @@ img {
 }
 
 .paginator-list > .paginator-active {
-  border: 1px solid var(--paginator-active);
   background: var(--basic-red);
 }
 
