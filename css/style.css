@@ -187,13 +187,20 @@ img {
   background: var(--special-background);
 }
 
-.search-wrapper > svg {
+.search-button {
   position: absolute;
-  top: 12px;
-  left: 17px;
+  width: 42px;
+  height: 42px;
+  padding-left: 12px;
+  top: -14px;
+  left: 0;
+  border: none;
+  background: var(--special-background);
+  background-position: 0 0;
+  cursor: pointer;
 }
 
-.search-wrapper:hover > svg path {
+.search-button:hover > svg path {
   opacity: 1.0;
 }
 
@@ -254,26 +261,11 @@ img {
   background: var(--white);
 }
 
-.search-field:focus + svg path {
-  opacity: 1.0;
-  fill: var(--basic-red);
+.search-field:focus + .search-button {
+  background: var(--white);
 }
 
-.search-field:focus::-webkit-input-placeholder + svg path {
-  fill: var(--basic-red);
-}
-
-.search-field:focus::-moz-placeholder + svg path {
-  opacity: 1.0;
-  fill: var(--basic-red);
-}
-
-.search-field:focus:-moz-placeholder + svg path {
-  opacity: 1.0;
-  fill: var(--basic-red);
-}
-
-.search-field:focus:-ms-input-placeholder + svg path {
+.search-field:focus + .search-button svg path {
   opacity: 1.0;
   fill: var(--basic-red);
 }
