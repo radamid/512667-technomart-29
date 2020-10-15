@@ -1885,10 +1885,12 @@ img {
 }
 
 .modal-feedback {
-  display: block;
-  
   width: 620px;
   height: 430px;
+}
+
+.modal-feedback-show {
+  display: block;
 }
 
 .modal-form {
