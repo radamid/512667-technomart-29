@@ -1646,7 +1646,7 @@ img {
   background-size: cover;
 }
 
-.service-item:hover {
+.service-item:hover:not(.service-active) {
   color: var(--white);
   background: var(--special-background);
   box-shadow: 0px 1px 0px var(--special-background), inset 0px 1px 0px var(--special-shadow);
@@ -1719,6 +1719,7 @@ img {
   border-radius: 2px;
   color: var(--white);
   background: #ff5357;
+  cursor: pointer;
 }
 
 .service-show {
