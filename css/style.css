@@ -160,7 +160,7 @@ img {
 
 .bar-navigation {
   display: grid;
-  grid-template-columns: 220px 1fr max-content max-content 150px;
+  grid-template-columns: 220px 1fr 150px 150px 150px;
   align-content: start;
 }
 
@@ -220,19 +220,7 @@ img {
   background: var(--special-background);
 }
 
-.search-field::-webkit-input-placeholder {
-  color: var(--white);
-}
-
-.search-field::-moz-placeholder {
-  color: var(--white);
-}
-
-.search-field:-moz-placeholder {
-  color: var(--white);
-}
-
-.search-field:-ms-input-placeholder {
+.search-field::placeholder {
   color: var(--white);
 }
 
@@ -241,22 +229,7 @@ img {
   background: var(--white);
 }
 
-.search-field:focus::-webkit-input-placeholder {
-  color: var(--black);
-  background: var(--white);
-}
-
-.search-field:focus::-moz-placeholder {
-  color: var(--black);
-  background: var(--white);
-}
-
-.search-field:focus:-moz-placeholder {
-  color: var(--black);
-  background: var(--white);
-}
-
-.search-field:focus:-ms-input-placeholder {
+.search-field:focus::placeholder {
   color: var(--black);
   background: var(--white);
 }
@@ -281,13 +254,10 @@ img {
   text-align: center;
 }
 
-.bookmark-link,
-.basket-link {
-  padding: 10px 30px;
-}
-
+.bookmark-link, 
+.basket-link, 
 .order-link {
-  padding: 10px 0;
+  padding-top: 10px;
 }
 
 .bookmark-link,
@@ -296,11 +266,9 @@ img {
   color: var(--white);
 }
 
-.bookmark-link > svg,
+.bookmark-link > svg, 
 .basket-link > svg {
-  position: relative;
-  margin-right: 7px;
-  background-position: 0 0;
+  padding-right: 8px;
 }
 
 .basket-active {
