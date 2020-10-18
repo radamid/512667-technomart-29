@@ -1256,10 +1256,11 @@ img {
 	width: 10px;
 	height: 10px;
 	position: absolute;
-	left: 275px;
+	left: 270px;
 	bottom: -70px;
 	border: 2px solid var(--white);
   border-radius: 10px;
+  box-sizing: border-box;
   background-position: 0 0;
   cursor: pointer;
 }
@@ -1269,10 +1270,11 @@ img {
 	width: 10px;
 	height: 10px;
 	position: absolute;
-	left: -260px;
+	left: -265px;
 	bottom: -70px;
 	border: 2px solid var(--white);
   border-radius: 10px;
+  box-sizing: border-box;
   background-position: 0 0;
   cursor: pointer;
 }
