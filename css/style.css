@@ -600,7 +600,7 @@ img {
 
 .breadcrumbs-item {
   position: relative;
-  margin-right: 42px;
+  margin-right: 45px;
 }
 
 .breadcrumbs-link {
@@ -617,7 +617,7 @@ img {
   content: "";
   position: absolute;
   top: 5px;
-  left: -24px;
+  left: -25px;
   width: 8px;
   height: 12px;
   background-image: url("../img/icon-right-small.svg");
@@ -628,7 +628,7 @@ img {
 .breadcrumbs-item:first-child::after {
   content: "";
   position: absolute;
-  top: 4px;
+  top: 5px;
   left: -50px;
   width: 14px;
   height: 12px;
