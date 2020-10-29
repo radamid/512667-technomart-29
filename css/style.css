@@ -98,6 +98,7 @@
   --night-blue: #293449;
   --orient-red: #BA2732;
   --pale-orange-yellow: #FFD180;
+  --pale-smoky-white: #EAEAEA;
   --pearl-white: #F7F3EC;
   --periwinkle-crayola-light: #F1F5F7;
   --periwinkle-crayola-lighter: #F3F7F9;
@@ -107,7 +108,7 @@
   --sapphire-blue: #212A3A;
   --shiny-orange: #FFBF47;
   --silver: #C5C5C5;
-  --smoky-white: #EAEAEA;
+  --smoky-white: #F4F4F4;
   --twitter: #3BBCE3;
   --rich-yellowish-green: #518534;
   --very-pale-blue: #D7DCDE;
@@ -947,7 +948,7 @@ img {
 }
 
 .filter-item:not(.filter-item-last) {
-  border-bottom: 1px solid var(--smoky-white);
+  border-bottom: 1px solid var(--gainsboro);
 }
 
 .range-controls {
@@ -1418,7 +1419,7 @@ img {
   margin: 0;
   padding: 0;
   background: var(--white);
-  border: 1px solid var(--smoky-white);
+  border: 1px solid var(--pale-smoky-white);
   box-sizing: border-box;
 }
 
@@ -1680,7 +1681,7 @@ img {
   width: 220px;
   height: 145px;
   background: var(--white);
-  border: 1px solid var(--smoky-white);
+  border: 1px solid var(--pale-smoky-white);
   box-sizing: border-box;
 }
 
@@ -2271,7 +2272,7 @@ img {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background: var(--smoking-white);
+  background: var(--pale-smoky-white);
 }
 
 .modal-feedback-button {
@@ -2345,7 +2346,7 @@ img {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background: var(--smoking-white);
+  background: var(--pale-smoky-white);
 }
 
 .modal-basket-button {
@@ -2426,7 +2427,7 @@ img {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background: var(--smoking-white);
+  background: var(--pale-smoky-white);
 }
 
 .modal-stop-button {
