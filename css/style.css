@@ -151,7 +151,7 @@ img {
 
 /* identical to box height, or 100% */
 .h-1 {
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -161,7 +161,7 @@ img {
 
 /* identical to box height, or 100% */
 .h-2 {
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -171,7 +171,7 @@ img {
 
 /* identical to box height, or 125% */
 .h-3 {
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -180,7 +180,7 @@ img {
 
 /* identical to box height, or 143% */
 .h-4 {
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 21px;
@@ -189,7 +189,7 @@ img {
 
 /* identical to box height, or 138% */
 .h-5 {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -199,7 +199,7 @@ img {
 
 /* identical to box height, or 127% */
 .h-6 {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -209,7 +209,7 @@ img {
 
 /* identical to box height, or 185% */
 .p-1 {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -218,7 +218,7 @@ img {
 
 /* identical to box height, or 133% */
 .p-2 {
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -227,7 +227,7 @@ img {
 
 /* identical to box height, or 112% */
 .p-3 {
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -236,7 +236,7 @@ img {
 
 /* identical to box height, or 111% */
 .p-4 {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -245,7 +245,7 @@ img {
 
 /* identical to box height, or 144% */
 .p-5 {
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: italic;
   font-weight: normal;
   font-size: 16px;
@@ -254,7 +254,7 @@ img {
 
 /* identical to box height, or 100% */
 .p-6 {
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
@@ -263,7 +263,7 @@ img {
 
 /* identical to box height, or 129% */
 .bttn-txt {
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -273,7 +273,7 @@ img {
 
 /* identical to box height, or 171% */
 .desc-txt {
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -283,7 +283,7 @@ img {
 /* identical to box height, or 106% */
 .price-txt,
 .filter-txt {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -293,7 +293,7 @@ img {
 
 /* identical to box height, or 176% */
 .legend-txt {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
