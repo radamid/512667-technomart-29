@@ -36,7 +36,7 @@ function toggleRadio(data) {
         gallerySlider[i].classList.add("gallery-slider-active");
         galleryItem[i].classList.add("gallery-radio-active");
       } else {
-        gallerySlider[i].classList.remove('gallery-slider-active');
+        gallerySlider[i].classList.remove("gallery-slider-active");
         galleryItem[i].classList.remove("gallery-radio-active");
       }
     }
@@ -53,7 +53,7 @@ function toggleRadio(data) {
         serviceSlider[i].classList.add("service-slider-active");
         serviceItem[i].classList.add("service-item-active");
       } else {
-        serviceSlider[i].classList.remove('service-slider-active');
+        serviceSlider[i].classList.remove("service-slider-active");
         serviceItem[i].classList.remove("service-item-active");
       }
     }
