@@ -640,6 +640,7 @@ img {
 .user-name span {
   margin-left: 21px;
   margin-right: 20px;
+  color: var(--black);
 }
 
 .user-order,
@@ -668,37 +669,36 @@ img {
 .login-link:hover,
 .login-link:focus,
 .register-link:hover,
-.register-link:focus {
-  color: var(--deep-carmine-pink);
-}
-
+.register-link:focus,
 .user-order:hover,
 .user-order:focus,
 .user-profile:hover,
 .user-profile:focus,
 .user-marker:hover,
-.user-marker:focus {
+.user-marker:focus,
+.user-link span:hover,
+.user-link span:focus {
   color: var(--deep-carmine-pink);
 }
 
 .login-link:active,
 .register-link:active,
-.user-name:active,
 .user-order:active,
 .user-profile:active,
-.user-marker:active {
+.user-marker:active,
+.user-link span:active {
   color: var(--silver);
 }
 
 .login-link:hover svg path,
 .login-link:focus svg path,
-.user-name:hover svg path,
-.user-name:focus svg path {
+.user-link:hover svg path,
+.user-link:focus svg path {
   fill: var(--moderate-blue);
 }
 
 .login-link:active svg path,
-.user-name:active svg path {
+.user-link:active svg path {
   fill: var(--silver);
 }
 
