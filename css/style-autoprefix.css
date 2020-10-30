@@ -425,7 +425,7 @@ img {
 .search-icon::before {
   content: "";
   position: absolute;
-  top: 11px;
+  top: 12px;
   left: 17px;
   width: 15px;
   height: 15px;
@@ -437,7 +437,7 @@ img {
 .search-icon::after {
   content: "";
   position: absolute;
-  top: 24px;
+  top: 25px;
   left: 29px;
   width: 5px;
   height: 2px;
@@ -503,6 +503,17 @@ img {
 .order-link span {
   padding: 10px 0 8px 5px;
   display: inline-block;
+  vertical-align: middle;
+}
+
+.bookmark-link span {
+  padding: 10px 2px 8px 4px;
+}
+
+.bookmark-link svg,
+.basket-link svg {
+  padding: 10px 0;
+  vertical-align: middle;
 }
 
 .bookmark-link:active,
@@ -558,8 +569,8 @@ img {
 
 .header-content {
   margin: 0;
+  padding-top: 0;
   padding-left: 30px;
-  display: inline-block;
   color: var(--deep-carmine-pink);
 }
 
@@ -716,6 +727,7 @@ img {
 .site-navigation li {
   height: 60px;
   display: inline-block;
+  vertical-align: top;
 }
 
 .site-navigation a {
@@ -867,8 +879,9 @@ img {
 }
 
 .filter-navigation li {
-  display: inline-block;
   margin-left: 14px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .filter-navigation li:first-child {
@@ -2029,6 +2042,7 @@ img {
 
 /*.top-navigation li {
   display: inline-block;
+  vertical-align: top;
 }*/
 
 .top-navigation a {
@@ -2059,6 +2073,7 @@ img {
 
 /*.bottom-navigation li {
   display: inline-block;
+  vertical-align: top;
 }*/
 
 .bottom-navigation a {
@@ -2104,8 +2119,9 @@ img {
 .social-button {
   width: 42px;
   height: 42px;
-  margin: 15px 0 0 0;
+  margin-top: 15px;
   display: inline-block;
+  vertical-align: top;
   border: 2px solid inherit;
   border-radius: 50%;
   box-sizing: border-box;
