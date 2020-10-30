@@ -1,5 +1,7 @@
 /* Radio Sliders */
 
+if (document.querySelector(".gallery-sliders") && document.querySelector(".service-sliders")) {
+
 const galleryMainSlider = document.querySelector(".gallery-sliders");
 let galleryRadio = document.querySelectorAll(".gallery-filter input");
 let gallerySlider = document.querySelectorAll(".gallery-slider");
@@ -61,7 +63,11 @@ function toggleRadio(data) {
 
 };
 
+};
+
 /* Map PopUp */
+
+if (document.querySelector(".map-link")) {
 
 const mapLink = document.querySelector(".map-link");
 const mapPopup = document.querySelector(".modal-map");
@@ -86,8 +92,12 @@ window.addEventListener("keydown", function (evt) {
   }
 });
 
+};
+
 /* FeedBack PopUp */
 
+if (document.querySelector(".contact-link")) {
+ 
 const feedbackLink = document.querySelector(".contact-link");
 const feedbackPopup = document.querySelector(".modal-feedback");
 const feedbackClose = feedbackPopup.querySelector(".modal-close");
@@ -166,7 +176,51 @@ window.addEventListener("keydown", function (evt) {
   }
 });
 
+};
+
+/* Bookmark PopUp */
+
+if (document.querySelector(".bookmark-link")) {
+
+const bookmarkPopup = document.querySelector(".modal-bookmark");
+const bookmarkClose = bookmarkPopup.querySelector(".modal-close");
+const bookmarkLink = document.querySelector(".bookmark-link");
+const bookmarkSpan = document.querySelectorAll(".bookmark-link span")[1];
+
+let bookmarkButton = document.querySelectorAll(".bookmark-button");
+let bookmark = 0;
+
+for (let i = 0; i < bookmarkButton.length; i++) {
+  bookmarkButton[i].addEventListener("click", function (evt) {
+    evt.preventDefault();
+    bookmark = parseInt(bookmarkSpan.textContent) + 1;
+    bookmarkSpan.textContent = bookmark;
+    if (!bookmarkLink.classList.contains("bookmark-link-active")) {
+      bookmarkLink.classList.add("bookmark-link-active");
+    }
+    bookmarkPopup.classList.add("modal-bookmark-show");
+  });
+}
+
+bookmarkClose.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  bookmarkPopup.classList.remove("modal-bookmark-show");
+});
+
+window.addEventListener("keydown", function (evt) {
+  if (evt.keyCode === 27) {
+    if (bookmarkPopup.classList.contains("modal-bookmark-show")) {
+      evt.preventDefault();
+      bookmarkPopup.classList.remove("modal-bookmark-show");
+    }
+  }
+});
+
+};
+
 /* Basket PopUp */
+
+if (document.querySelector(".basket-link")) {
 
 const basketPopup = document.querySelector(".modal-basket");
 const basketClose = basketPopup.querySelector(".modal-close");
@@ -198,6 +252,39 @@ window.addEventListener("keydown", function (evt) {
     if (basketPopup.classList.contains("modal-basket-show")) {
       evt.preventDefault();
       basketPopup.classList.remove("modal-basket-show");
+    }
+  }
+});
+
+};
+
+/* Stop PopUp */
+
+const stopPopup = document.querySelector(".modal-stop");
+const stopClose = stopPopup.querySelector(".modal-close");
+
+let currentPage = window.location.href;
+let pageLink = document.querySelectorAll("a[href]");
+
+for (let i = 0; i < pageLink.length; i++) {
+  if(pageLink[i].href === currentPage) {
+    pageLink[i].addEventListener("click", function (evt) {
+      evt.preventDefault();
+      stopPopup.classList.add("modal-stop-show");
+    });
+  }
+}
+
+stopClose.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  stopPopup.classList.remove("modal-stop-show");
+});
+
+window.addEventListener("keydown", function (evt) {
+  if (evt.keyCode === 27) {
+    if (stopPopup.classList.contains("modal-stop-show")) {
+      evt.preventDefault();
+      stopPopup.classList.remove("modal-stop-show");
     }
   }
 });

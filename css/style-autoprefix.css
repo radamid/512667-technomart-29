@@ -533,6 +533,7 @@ img {
   opacity: 0.3;
 }
 
+.bookmark-link-active,
 .basket-link-active {
   background: var(--deep-carmine-pink);
 }
@@ -2327,23 +2328,27 @@ img {
   cursor: pointer;
 }
 
+.modal-bookmark,
 .modal-basket {
   width: 620px;
   height: 275px;
 }
 
+.modal-bookmark-show,
 .modal-basket-show {
   display: block;
   -webkit-animation: bounce 0.6s;
           animation: bounce 0.6s;
 }
 
+.modal-bookmark-form,
 .modal-basket-form {
   display: grid;
   grid-template-rows: 163px 112px;
   background: var(--white);
 }
 
+.modal-bookmark-top,
 .modal-basket-top {
   display: flex;
   flex-wrap: wrap;
@@ -2351,10 +2356,12 @@ img {
   justify-content: center;
 }
 
+.modal-bookmark-top h3,
 .modal-basket-top h3 {
   position: relative;
 }
 
+.modal-bookmark-top h3::before,
 .modal-basket-top h3::before {
   content: "";
   position: absolute;
@@ -2368,6 +2375,7 @@ img {
   background: var(--dark-yellow-green);
 }
 
+.modal-bookmark-top h3::after,
 .modal-basket-top h3::after {
   content: "";
   position: absolute;
@@ -2383,6 +2391,7 @@ img {
   transform: rotate(-45deg);
 }
 
+.modal-bookmark-bottom,
 .modal-basket-bottom {
   display: flex;
   flex-wrap: wrap;
@@ -2391,6 +2400,7 @@ img {
   background: var(--pale-smoky-white);
 }
 
+.modal-bookmark-button,
 .modal-basket-button {
   width:192px;
   min-height: 38px;
@@ -2402,12 +2412,14 @@ img {
   cursor: pointer;
 }
 
+.modal-bookmark-button:first-child,
 .modal-basket-button:first-child {
   margin-right: 5px;
   color: var(--white);
   background: var(--deep-carmine-pink);
 }
 
+.modal-bookmark-button:last-child,
 .modal-basket-button:last-child {
   margin-left: 5px;
   color: var(--black);

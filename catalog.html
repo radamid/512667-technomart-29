@@ -184,7 +184,7 @@
               </div>
             </a>
             <a class="bttn-txt basket-button" href="buy.html">Купить</a>
-            <a class="bttn-txt bookmark-button" href="">В закладки</a>
+            <a class="bttn-txt bookmark-button" href="save.html">В закладки</a>
           </li>
           <li class="product-item">
             <a class="product-link" href="">
@@ -198,7 +198,7 @@
               </div>
             </a>
             <a class="bttn-txt basket-button" href="buy.html">Купить</a>
-            <a class="bttn-txt bookmark-button" href="">В закладки</a>
+            <a class="bttn-txt bookmark-button" href="save.html">В закладки</a>
           </li>
           <li class="product-item new-action">
             <a class="product-link" href="">
@@ -212,7 +212,7 @@
               </div>
             </a>
             <a class="bttn-txt basket-button" href="buy.html">Купить</a>
-            <a class="bttn-txt bookmark-button" href="">В закладки</a>
+            <a class="bttn-txt bookmark-button" href="save.html">В закладки</a>
           </li>
           <li class="product-item new-action">
             <a class="product-link" href="">
@@ -226,7 +226,7 @@
               </div>
             </a>
             <a class="bttn-txt basket-button" href="buy.html">Купить</a>
-            <a class="bttn-txt bookmark-button" href="">В закладки</a>
+            <a class="bttn-txt bookmark-button" href="save.html">В закладки</a>
           </li>
           <li class="product-item">
             <a class="product-link" href="">
@@ -240,7 +240,7 @@
               </div>
             </a>
             <a class="bttn-txt basket-button" href="buy.html">Купить</a>
-            <a class="bttn-txt bookmark-button" href="">В закладки</a>
+            <a class="bttn-txt bookmark-button" href="save.html">В закладки</a>
           </li>
           <li class="product-item new-action">
             <a class="product-link" href="">
@@ -254,7 +254,7 @@
               </div>
             </a>
             <a class="bttn-txt basket-button" href="buy.html">Купить</a>
-            <a class="bttn-txt bookmark-button" href="">В закладки</a>
+            <a class="bttn-txt bookmark-button" href="save.html">В закладки</a>
           </li>
           <li class="product-item new-action">
             <a class="product-link" href="">
@@ -268,7 +268,7 @@
               </div>
             </a>
             <a class="bttn-txt basket-button" href="buy.html">Купить</a>
-            <a class="bttn-txt bookmark-button" href="">В закладки</a>
+            <a class="bttn-txt bookmark-button" href="save.html">В закладки</a>
           </li>
           <li class="product-item new-action">
             <a class="product-link" href="">
@@ -282,7 +282,7 @@
               </div>
             </a>
             <a class="bttn-txt basket-button" href="buy.html">Купить</a>
-            <a class="bttn-txt bookmark-button" href="">В закладки</a>
+            <a class="bttn-txt bookmark-button" href="save.html">В закладки</a>
           </li>
           <li class="product-item">
             <a class="product-link" href="">
@@ -296,7 +296,7 @@
               </div>
             </a>
             <a class="bttn-txt basket-button" href="buy.html">Купить</a>
-            <a class="bttn-txt bookmark-button" href="">В закладки</a>
+            <a class="bttn-txt bookmark-button" href="save.html">В закладки</a>
           </li>
         </ul>
         <ul class="pagination-list">
@@ -363,6 +363,49 @@
   </div>
 </footer>
 
+<section class="modal modal-bookmark shadow">
+  <div class="modal-bookmark-form">
+    <div class="modal-bookmark-top">
+      <h3 class="h-3">Товар добавлен в закладки!</h3>
+    </div>
+    <div class="modal-bookmark-bottom">
+      <button class="bttn-txt modal-bookmark-button" type="button">Оформить заказ</button>
+      <button class="bttn-txt modal-bookmark-button" type="button">Продолжить покупки</button>
+    </div>
+  </div>
+  <button class="modal-close" type="button" aria-label="Закрыть"></button>
+</section>
+
+<section class="modal modal-feedback shadow">
+  <h3 class="h-3 visually-hidden">Обратная связь</h3>
+  <form class="modal-feedback-form" action="https://echo.htmlacademy.ru" method="post">
+    <div class="modal-feedback-top">
+      <label for="feedback-name">
+        <span class="p-2 modal-feedback-wrapper">Ваше имя:</span>
+        <input class="p-1 modal-feedback-field modal-feedback-name" id="feedback-name" type="text" name="name" placeholder="Имя Фамилия">
+      </label>
+      <label for="feedback-email">
+        <span class="p-2 modal-feedback-wrapper">Ваш e-mail:</span>
+        <input class="p-1 modal-feedback-field modal-feedback-email" id="feedback-email" type="email" name="email" placeholder="email@example.com">
+      </label>
+      <label for="feedback-message">
+        <span class="p-2 modal-feedback-wrapper">Текст письма:</span>
+        <textarea class="p-1 modal-feedback-textarea modal-feedback-message" id="feedback-message" name="message" rows="5" placeholder="В свободной форме"></textarea>
+      </label>
+    </div>
+    <div class="modal-feedback-bottom">
+      <button class="bttn-txt modal-feedback-button" type="submit">Отправить</button>
+    </div>
+  </form>
+  <button class="modal-close" type="button" aria-label="Закрыть"></button>
+</section>
+
+<section class="modal modal-map shadow">
+  <h3 class="h-3 visually-hidden">Как до нас добраться</h3>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.589433000252!2d30.32081117129526!3d59.93895465210814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1602697998455!5m2!1sru!2sru" width="943" height="442" allowfullscreen="" title="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург"></iframe>
+  <button class="modal-close" type="button" aria-label="Закрыть"></button>
+</section>
+
 <section class="modal modal-basket shadow">
   <div class="modal-basket-form">
     <div class="modal-basket-top">
@@ -389,7 +432,7 @@
   <button class="modal-close" type="button" aria-label="Закрыть"></button>
 </section>
 
-<script src="js/script-jscompress-2.js"></script>
+<script src="js/script-jscompress.js"></script>
 
 </body>
 </html>
