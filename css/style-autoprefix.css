@@ -610,48 +610,53 @@ img {
   justify-content: flex-end;
 }
 
-.login-link,
-.register-link,
-.user-name {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+.login-link {
+  width: 121px;
+  margin-right: 10px;
+  padding: 12px 0;
+  text-align: center;
   color: var(--black);
   background: var(--white);
 }
 
-.register-link,
-.user-name {
-  justify-content: center;
-}
-
-.login-link {
-  width: 121px;
-  height: 45px;
-  margin-right: 10px;
-}
 .login-link svg {
-  margin-left: 17px;
-}
-
-.login-link span {
-  margin-left: 7px;
+  padding-top: 1px;
+  vertical-align: top;
+  margin-right: 7px;
 }
 
 .register-link {
   width: 150px;
-  height: 45px;
+  padding: 12px 0;
+  text-align: center;
+  color: var(--black);
+  background: var(--white);
 }
 
 .user-name {
+  position: relative;
   width: 299px;
-  height: 45px;
+  padding: 12px 0;
+  text-align: center;
+  background: var(--white);
 }
 
-.user-name span {
-  margin-left: 21px;
-  margin-right: 20px;
+.user-link:nth-child(1) svg {
+  position: absolute;
+  top: 13px;
+  left: 15px;
+  background-position: 0 0;
+}
+
+.user-link:nth-child(2) {
   color: var(--black);
+}
+
+.user-link:nth-child(3) svg {
+  position: absolute;
+  top: 14px;
+  right: 17px;
+  background-position: 0 0;
 }
 
 .user-order,
@@ -687,8 +692,8 @@ img {
 .user-profile:focus,
 .user-marker:hover,
 .user-marker:focus,
-.user-link span:hover,
-.user-link span:focus {
+.user-link:hover,
+.user-link:focus {
   color: var(--deep-carmine-pink);
 }
 
@@ -697,7 +702,7 @@ img {
 .user-order:active,
 .user-profile:active,
 .user-marker:active,
-.user-link span:active {
+.user-link:active {
   color: var(--silver);
 }
 
