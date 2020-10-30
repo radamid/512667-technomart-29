@@ -635,8 +635,8 @@ img {
 
 .user-name {
   position: relative;
-  width: 299px;
-  padding: 12px 0;
+  width: 209px;
+  padding: 12px 45px;
   text-align: center;
   background: var(--white);
 }
