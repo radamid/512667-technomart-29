@@ -1975,13 +1975,13 @@ img {
 /* Articles */
 
 .main-articles {
-  height: 261px;
   display: grid;
   background: var(--periwinkle-crayola-light);
 }
 
 .articles {
   margin-top: 64px;
+  padding-bottom: 56px;
 }
 
 /* Footer */
