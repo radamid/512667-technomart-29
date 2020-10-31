@@ -1644,7 +1644,7 @@ img {
   right: 13px;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
