@@ -766,10 +766,15 @@ img {
 .user-profile:hover,
 .user-profile:focus,
 .user-marker:hover,
-.user-marker:focus,
-.user-link:hover,
-.user-link:focus {
+.user-marker:focus {
   color: var(--deep-carmine-pink);
+}
+
+.login-link:hover svg path,
+.login-link:focus svg path,
+.user-link:hover svg path,
+.user-link:focus svg path {
+  fill: var(--moderate-blue);
 }
 
 .login-link:active,
@@ -779,13 +784,6 @@ img {
 .user-marker:active,
 .user-link:active {
   color: var(--silver);
-}
-
-.login-link:hover svg path,
-.login-link:focus svg path,
-.user-link:hover svg path,
-.user-link:focus svg path {
-  fill: var(--moderate-blue);
 }
 
 .login-link:active svg path,
@@ -1622,7 +1620,7 @@ img {
   background: var(--dark-yellow-green);
   box-shadow: inset 0px -3px 0px var(--deep-yellow-green);
   border-radius: 2px;
-  opacity: 0.01;
+  visibility: hidden;
 }
 
 .bookmark-button {
@@ -1636,8 +1634,7 @@ img {
   border: 3px solid var(--dark-yellow-green);
   box-sizing: border-box;
   border-radius: 2px;
-  opacity: 0.01;
-  visibility: visible;
+  visibility: hidden;
 }
 
 .basket-button::before {
@@ -1663,14 +1660,14 @@ img {
 
 .product-item:hover .product-picture,
 .product-item:focus .product-picture {
-  opacity: 0.01;
+  visibility: hidden;
 }
 
 .product-item:hover .basket-button,
 .product-item:focus .basket-button,
 .product-item:hover .bookmark-button,
 .product-item:focus .bookmark-button {
-  opacity: 1.0;
+  visibility: visible;
 }
 
 .basket-button:hover,
