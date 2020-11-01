@@ -257,34 +257,3 @@ window.addEventListener("keydown", function (evt) {
 });
 
 };
-
-/* Stop PopUp */
-
-const stopPopup = document.querySelector(".modal-stop");
-const stopClose = stopPopup.querySelector(".modal-close");
-
-let currentPage = window.location.href;
-let pageLink = document.querySelectorAll("a[href]");
-
-for (let i = 0; i < pageLink.length; i++) {
-  if(pageLink[i].href === currentPage) {
-    pageLink[i].addEventListener("click", function (evt) {
-      evt.preventDefault();
-      stopPopup.classList.add("modal-stop-show");
-    });
-  }
-}
-
-stopClose.addEventListener("click", function (evt) {
-  evt.preventDefault();
-  stopPopup.classList.remove("modal-stop-show");
-});
-
-window.addEventListener("keydown", function (evt) {
-  if (evt.keyCode === 27) {
-    if (stopPopup.classList.contains("modal-stop-show")) {
-      evt.preventDefault();
-      stopPopup.classList.remove("modal-stop-show");
-    }
-  }
-});
