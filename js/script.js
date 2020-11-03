@@ -12,6 +12,31 @@ let serviceRadio = document.querySelectorAll(".service-filter input");
 let serviceSlider = document.querySelectorAll(".service-slider");
 let serviceItem = document.querySelectorAll(".service-item");
 
+const galleryButtonBack = galleryMainSlider.querySelector(".gallery-button-back");
+const galleryButtonNext = galleryMainSlider.querySelector(".gallery-button-next");
+
+galleryButtonBack.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  for (let i = 0; i < galleryRadio.length; i++) {
+    if (galleryRadio[i].checked) {
+      if(i > 0) {
+        galleryItem[i-1].click();
+      }
+    }
+  }
+});
+
+galleryButtonNext.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  for (let i = 0; i < galleryRadio.length; i++) {
+    if (galleryRadio[i].checked) {
+      if(i < galleryRadio.length-1) {
+        galleryItem[i+1].click();
+      }
+    }
+  }
+});
+
 for (let i = 0; i < galleryRadio.length; i++) {
   clickRadio(galleryRadio[i]);
 };
