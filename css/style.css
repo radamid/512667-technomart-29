@@ -428,13 +428,13 @@ img {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   width: 220px;
-  height: 47px;
-  background-image: url("../img/logo-technomart-24.svg");
-  background-position: 56px 12px;
-  background-repeat: no-repeat;
+  height: 35px;
 }
 
-.logo-link {
+.header-logo.logo-link {
+  padding-top: 12px;
+  padding-bottom: 0;
+  text-align: center;
   background-color: var(--deep-carmine-pink);
   box-shadow: inset 0px -5px 0px rgba(var(--black-rgb), 0.24);
 }
@@ -2117,11 +2117,16 @@ img {
 
 .footer-logo {
   width: 220px;
-  height: 68px;
+  height: 48px;
   margin-bottom: 5px;
-  background-image: url("../img/logo-technomart-30.svg");
-  background-position: 41px 20px;
-  background-repeat: no-repeat;
+}
+
+.footer-logo.logo-link {
+  padding-top: 20px;
+  padding-bottom: 0;
+  text-align: center;
+  background-color: var(--deep-carmine-pink);
+  box-shadow: inset 0px -5px 0px rgba(var(--black-rgb), 0.24);
 }
 
 .footer-contacts,
@@ -2224,13 +2229,13 @@ img {
   text-align: center;
 }
 
-.social-button {
-  width: 42px;
-  height: 42px;
+.social-icon {
+  width: 44px;
+  height: 44px;
   margin-top: 15px;
   display: inline-block;
   vertical-align: top;
-  border: 2px solid inherit;
+  text-align: center;
   border-radius: 50%;
   box-sizing: border-box;
   background-color: var(--sapphire-blue);
@@ -2238,16 +2243,16 @@ img {
   background-repeat: no-repeat;
 }
 
-.button-vk {
-  background-image: url("../img/icon-vk.svg");
+.icon-vk {
+  padding-top: 13px;
 }
 
-.button-fb {
-  background-image: url("../img/icon-fb.svg");
+.icon-fb {
+  padding-top: 11px;
 }
 
-.button-ig {
-  background-image: url("../img/icon-insta.svg");
+.icon-ig {
+  padding-top: 11px;
 }
 
 .social-link {
@@ -2257,9 +2262,9 @@ img {
   color: var(--white);
 }
 
-.social-button:hover,
-.social-button:focus,
-.social-button:active {
+.social-icon:hover,
+.social-icon:focus,
+.social-icon:active {
   background-color: var(--deep-carmine-pink);
 }
 
