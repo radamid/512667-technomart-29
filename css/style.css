@@ -561,11 +561,17 @@ img {
 }
 
 .bookmark-link,
-.basket-link,
 .order-link {
   width: 150px;
   height: 42px;
   text-align: center;
+  color: var(--white);
+}
+
+.basket-link {
+  width: 136px;
+  height: 42px;
+  margin-left: 14px;
   color: var(--white);
 }
 
@@ -576,18 +582,30 @@ img {
 .bookmark-link span,
 .basket-link span,
 .order-link span {
-  padding: 10px 0 8px 5px;
   display: inline-block;
   vertical-align: middle;
+  
 }
 
 .bookmark-link span {
   padding: 10px 2px 8px 4px;
 }
 
-.bookmark-link svg,
+.basket-link span {
+  padding: 10px 1px 8px 4px;
+}
+
+.order-link span {
+  padding: 10px 0 8px 0;
+  text-align: center;
+}
+
+.bookmark-link svg {
+  vertical-align: middle;
+}
+
 .basket-link svg {
-  padding: 10px 0;
+  padding-left: 12px;
   vertical-align: middle;
 }
 
@@ -621,7 +639,7 @@ img {
 
 .bookmark-link-active,
 .basket-link-active {
-  background: var(--deep-carmine-pink);
+  background-color: var(--deep-carmine-pink);
 }
 
 /* Header Navigation */
