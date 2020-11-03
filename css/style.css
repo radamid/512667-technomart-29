@@ -662,8 +662,7 @@ img {
 
 .header-content {
   margin: 0;
-  padding-top: 0;
-  padding-left: 30px;
+  padding: 0 45px 0 30px;
   color: var(--deep-carmine-pink);
 }
 
@@ -1853,20 +1852,26 @@ img {
   grid-row: 1 / 2;
 }
 
+.services p {
+  margin: 0;
+  padding: 0;
+}
+
 .service-aside {
+  position: relative;
   width: 240px;
   min-height: 279px;
+  padding-top: 61px;
+  padding-bottom: 4px;
   grid-column: 1 /2;
   grid-row: 2 / 3;
-  padding-top: 48px;
-  position: relative;
 }
 
 .service-aside::before {
   content: "";
   position: absolute;
   width: 10px;
-  height: 279px;
+  min-height: 279px;
   top: 0;
   right: 0;
   background-blend-mode: normal;
@@ -1917,14 +1922,14 @@ img {
 }
 
 .service-sliders {
-  padding-top: 5px;
+  padding-top: 17px;
   grid-column: 2 /3;
   grid-row: 2 / 3;
 }
 
 .service-slider {
   width: 619px;
-  height: 286px;
+  height: auto;
   margin: 0;
   padding: 0;
   display: none;
@@ -1977,12 +1982,19 @@ img {
 }
 
 .service-title {
+  margin-right: 260px;
   margin-bottom: 30px;
   color: var(--violet-blue);
 }
 
 .service-slider p {
-  margin-bottom: 24px;
+  margin: 0;
+  margin-right: 260px;
+}
+
+.service-slider a {
+  margin-top: 24px;
+  margin-bottom: 114px;
 }
 
 /* Company */
@@ -2003,7 +2015,12 @@ img {
 }
 
 .company-content {
+  margin-right: 140px;
   margin-bottom: 26px;
+}
+
+.company-service {
+  margin-right: 200px;
 }
 
 .company-service p {
@@ -2043,6 +2060,7 @@ img {
 }
 
 .contacts-content {
+  margin-right: 100px;
   margin-bottom: 32px;
 }
 
@@ -2097,10 +2115,6 @@ img {
   color: var(--white);
 }
 
-.footer-phone {
-  color: inherit;
-}
-
 .footer-logo {
   width: 220px;
   height: 68px;
@@ -2110,8 +2124,11 @@ img {
   background-repeat: no-repeat;
 }
 
-.footer-contacts {
+.footer-contacts,
+.footer-phone {
   margin-left: 3px;
+  margin-bottom: 0;
+  color: inherit;
 }
 
 .footer-navigation {
@@ -2193,6 +2210,7 @@ img {
 }
 
 .copyright {
+  margin-right: 150px;
   color: var(--white);
 }
 
