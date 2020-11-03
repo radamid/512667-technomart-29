@@ -439,7 +439,7 @@ img {
   box-shadow: inset 0px -5px 0px rgba(var(--black-rgb), 0.24);
 }
 
-.logo-link:active:not(.no-href) {
+.logo-link:active:not(.interactless) {
   background-color: var(--orient-red);
 }
 
@@ -831,12 +831,12 @@ img {
   color: var(--white);
 }
 
-.site-navigation a:hover:not(.no-href),
-.site-navigation a:focus:not(.no-href) {
+.site-navigation a:hover:not(.interactless),
+.site-navigation a:focus:not(.interactless) {
   background: var(--night-blue);
 }
 
-.site-navigation a:active:not(.no-href) {
+.site-navigation a:active:not(.interactless) {
   opacity: 0.5;
   background: var(--cobalt-blue);
 }
@@ -893,12 +893,12 @@ img {
   color: var(--black);
 }
 
-.breadcrumbs-item a:not(.no-href) {
+.breadcrumbs-item a:not(.interactless) {
   color: var(--black);
 }
 
-.breadcrumbs-item a:hover:not(.no-href),
-.breadcrumbs-item a:focus:not(.no-href) {
+.breadcrumbs-item a:hover:not(.interactless),
+.breadcrumbs-item a:focus:not(.interactless) {
   text-decoration: underline;
 }
 
@@ -1758,16 +1758,16 @@ img {
   padding: 9px 31px;
 }
 
-.pagination-list a:not(.no-href) {
+.pagination-list a:not(.interactless) {
   color: var(--black);
 }
 
-.pagination-item a:hover:not(.no-href),
-.pagination-item a:focus:not(.no-href) {
+.pagination-item a:hover:not(.interactless),
+.pagination-item a:focus:not(.interactless) {
   border: 1px solid var(--silver);
 }
 
-.pagination-item a:active:not(.no-href) {
+.pagination-item a:active:not(.interactless) {
   border: 1px solid var(--deep-carmine-pink);
 }
 
@@ -2150,13 +2150,13 @@ img {
   color: var(--periwinkle-crayola-light);
 }
 
-.top-navigation a:hover:not(.no-href),
-.top-navigation a:focus:not(.no-href) {
+.top-navigation a:hover:not(.interactless),
+.top-navigation a:focus:not(.interactless) {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
 }
 
-.top-navigation a:active:not(.no-href) {
+.top-navigation a:active:not(.interactless) {
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
   opacity: 0.5;
@@ -2181,13 +2181,13 @@ img {
   color: var(--pale-orange-yellow);
 }
 
-.bottom-navigation a:hover:not(.no-href),
-.bottom-navigation a:focus:not(.no-href) {
+.bottom-navigation a:hover:not(.interactless),
+.bottom-navigation a:focus:not(.interactless) {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
 }
 
-.bottom-navigation a:active:not(.no-href) {
+.bottom-navigation a:active:not(.interactless) {
   opacity: 0.5;
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
@@ -2299,6 +2299,10 @@ img {
 
 .cut-down {
   display: none;
+}
+
+.interactless {
+  pointer-events: none;
 }
 
 /* Modal */
