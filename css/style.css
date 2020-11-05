@@ -1489,7 +1489,7 @@ img {
   outline: none;
 }
 
-.button {
+.like-a-button-link {
   width: 192px;
   padding: 10px 0;
   display: block;
@@ -1498,12 +1498,12 @@ img {
   background: var(--deep-carmine-pink);
 }
 
-.button:hover,
-.button:focus {
+.like-a-button-link:hover,
+.like-a-button-link:focus {
   background: var(--persian-red);
 }
 
-.button:active {
+.like-a-button-link:active {
   background: var(--orient-red);
 }
 
@@ -2036,7 +2036,7 @@ img {
   background-color: var(--deep-carmine-pink);
 }
 
-.company .button {
+.company .like-a-button-link {
   width: 220px;
 }
 
@@ -2056,7 +2056,7 @@ img {
   margin-bottom: 25px;
 }
 
-.contacts .button {
+.contacts .like-a-button-link {
   width: 100%;
 }
 
