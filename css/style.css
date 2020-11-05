@@ -2361,6 +2361,8 @@ img {
 
 .modal-map-show {
   display: block;
+  right: 50%;
+  margin-right: -463px;
   -webkit-animation: bounce 0.6s;
           animation: bounce 0.6s;
 }
@@ -2372,6 +2374,8 @@ img {
 
 .modal-feedback-show {
   display: block;
+  right: 50%;
+  margin-right: -302px;
   -webkit-animation: bounce 0.6s;
           animation: bounce 0.6s;
 }
@@ -2455,6 +2459,8 @@ img {
 .modal-bookmark-show,
 .modal-basket-show {
   display: block;
+  left: 50%;
+  margin-left: -294px;
   -webkit-animation: bounce 0.6s;
           animation: bounce 0.6s;
 }
