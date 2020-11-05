@@ -2080,10 +2080,11 @@ img {
 
 .main-footer {
   display: grid;
-  grid-template-rows: 193px 107px;
+  grid-template-rows: max-content min-content;
 }
 
 .top-footer {
+  min-height: 193px;
   background: var(--violet-blue);
 }
 
@@ -2190,24 +2191,23 @@ img {
 }
 
 .bottom-footer {
+  min-height: 107px;
   background: var(--night-blue);
 }
 
 .bottom-footer .container {
   padding-top: 20px;
   display: grid;
-  grid-template-columns: 389px 251px 188px 1fr 1px;
+  grid-template-columns: 276px 364px 188px 1fr 1px;
 }
 
 .copyright {
-  margin-right: 150px;
   color: var(--white);
 }
 
 /* Social Buttons */
 
 .footer-social {
-  width: 140px;
   margin: 0;
   padding: 0;
   list-style: none;
