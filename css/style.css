@@ -232,7 +232,7 @@ img {
 /* Text */
 
 /* identical to box height, or 100% */
-.h-1 {
+.gallery-title-text {
   font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -242,7 +242,7 @@ img {
 }
 
 /* identical to box height, or 100% */
-.h-2 {
+.main-heading-text {
   font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -252,7 +252,8 @@ img {
 }
 
 /* identical to box height, or 125% */
-.h-3 {
+.feature-title-text,
+.modal-title-text {
   font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -261,7 +262,8 @@ img {
 }
 
 /* identical to box height, or 143% */
-.h-4 {
+.header-phone-text,
+.service-item-text {
   font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -270,7 +272,9 @@ img {
 }
 
 /* identical to box height, or 138% */
-.h-5 {
+.breadcrumbs-text,
+.filter-text,
+.pagination-text {
   font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -280,7 +284,7 @@ img {
 }
 
 /* identical to box height, or 127% */
-.h-6 {
+.filter-option-text {
   font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -290,7 +294,7 @@ img {
 }
 
 /* identical to box height, or 185% */
-.p-1 {
+.main-paragraph-text {
   font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -299,7 +303,13 @@ img {
 }
 
 /* identical to box height, or 133% */
-.p-2 {
+.bar-navigation-text, 
+.site-navigation-text, 
+.footer-navigation-text, 
+.footer-company-text, 
+.gallery-text, 
+.partner-text, 
+.modal-feedback-text {
   font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -308,7 +318,9 @@ img {
 }
 
 /* identical to box height, or 112% */
-.p-3 {
+.user-text,
+.bottom-footer-text
+ {
   font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -317,7 +329,7 @@ img {
 }
 
 /* identical to box height, or 111% */
-.p-4 {
+.product-title-text {
   font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -326,7 +338,7 @@ img {
 }
 
 /* identical to box height, or 144% */
-.p-5 {
+.header-shop-text {
   font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: italic;
   font-weight: normal;
@@ -335,7 +347,7 @@ img {
 }
 
 /* identical to box height, or 100% */
-.p-6 {
+.user-navigation-text {
   font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -344,7 +356,7 @@ img {
 }
 
 /* identical to box height, or 129% */
-.bttn-txt {
+.button-text {
   font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -354,7 +366,7 @@ img {
 }
 
 /* identical to box height, or 171% */
-.desc-txt {
+.description-text {
   font-family: "Cuprum", "Arial Narrow", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -363,8 +375,7 @@ img {
 }
 
 /* identical to box height, or 106% */
-.price-txt,
-.filter-txt {
+.price-text {
   font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -374,7 +385,7 @@ img {
 }
 
 /* identical to box height, or 176% */
-.legend-txt {
+.legend-text {
   font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -659,7 +670,7 @@ img {
   gap: 20px;
 }
 
-.header-content {
+.header-shop {
   margin: 0;
   padding: 0 45px 0 30px;
   color: var(--deep-carmine-pink);
@@ -1395,7 +1406,7 @@ img {
   color: var(--white);
 }
 
-.gallery-text {
+.gallery-content {
   margin: 0;
   padding: 0 20px 0 24px;
   color: var(--white);
